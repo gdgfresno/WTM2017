@@ -66,7 +66,7 @@
 
     <div class="container">
       <h4 class="heading text-center">{$ partners $}</h4>
-      <template is="dom-repeat" items="[[app.partners]]" as="block">
+      <template is="dom-repeat" items="[[_partners]]" as="block">
         <div class="logos-block-wrapper">
           <h5 class="logos-block-title text-center">[[block.title]]</h5>
           <div class="logos">
@@ -99,6 +99,23 @@
       Polymer({
 
         is: 'logos-block',
+
+        properties : {
+          _partners : {
+            type : Object,
+            notify: true
+          }
+        },
+
+        observers : [
+          '_partnersChanged(app.partners)'
+        ],
+
+        _partnersChanged: function() {
+          if (this.app.partners && Object.keys(this.app.partners).length) {
+            this._partners = this.app.partners;
+          }
+        },
 
         _trackClick: function () {
           HOVERBOARD.Analytics.trackEvent('sponsors', 'open proposition', 'Become a partner');

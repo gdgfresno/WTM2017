@@ -6,10 +6,7 @@
 <dom-module id="app-data">
   <template>
     <iron-ajax auto url="[[configSource]]" handle-as="json" last-response="{{app.data}}"></iron-ajax> <iron-ajax auto url="[[postsSource]]" handle-as="json" on-response="_reversePosts"></iron-ajax>
-    <iron-ajax auto url="[[partnersSource]]" handle-as="json" last-response="{{app.partners}}"></iron-ajax>
-    <iron-ajax auto url="[[teamSource]]" handle-as="json" last-response="{{app.team}}"></iron-ajax>
-    <iron-ajax auto url="[[videosSource]]" handle-as="json" last-response="{{app.videos}}"></iron-ajax>
-
+ 
     <template is="dom-if" if="[[app.data]]">
     <firebase-document
       id="querySpeakers"
@@ -51,6 +48,48 @@
       key="schedule"
       data="{{_firebaseSchedule}}"
       persisted-data="{{_scheduleRaw}}">
+    </app-indexeddb-mirror>
+
+    <firebase-document
+      id="queryPartners"
+      app-name="[[app.data.firebase.name]]"
+      path="/partners"
+      data="{{_firebasePartners}}">
+    </firebase-document>
+
+    <app-indexeddb-mirror
+      session="devfest"
+      key="partners"
+      data="{{_firebasePartners}}"
+      persisted-data="{{app.partners}}">
+    </app-indexeddb-mirror>
+
+    <firebase-document
+      id="queryVideos"
+      app-name="[[app.data.firebase.name]]"
+      path="/videos"
+      data="{{_firebaseVideos}}">
+    </firebase-document>
+
+    <app-indexeddb-mirror
+      session="devfest"
+      key="videos"
+      data="{{_firebaseVideos}}"
+      persisted-data="{{app.videos}}">
+    </app-indexeddb-mirror>
+
+    <firebase-document
+      id="queryVideos"
+      app-name="[[app.data.firebase.name]]"
+      path="/team"
+      data="{{_firebaseTeam}}">
+    </firebase-document>
+
+    <app-indexeddb-mirror
+      session="devfest"
+      key="team"
+      data="{{_firebaseTeam}}"
+      persisted-data="{{app.team}}">
     </app-indexeddb-mirror>
   </template>
 
