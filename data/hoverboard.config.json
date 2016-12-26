@@ -23,7 +23,8 @@
     "domain": "hoverboard-experimental.firebaseapp.com",
     "database": "https://hoverboard-experimental.firebaseio.com",
     "api": "AIzaSyALDa2D7CMhK_wt2VkET1MaJuQXYVUJd2I",
-    "userSessionsPath": "/userSessions"
+    "userSessionsPath": "/userSessions",
+    "indexedDbSession": "dfua"
   },
   "pages": {
     "home": {

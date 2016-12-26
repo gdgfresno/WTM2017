@@ -6,7 +6,7 @@
 <dom-module id="app-data">
   <template>
     <iron-ajax auto url="[[configSource]]" handle-as="json" last-response="{{app.data}}"></iron-ajax> <iron-ajax auto url="[[postsSource]]" handle-as="json" on-response="_reversePosts"></iron-ajax>
- 
+
     <template is="dom-if" if="[[app.data]]">
     <firebase-document
       id="querySpeakers"
@@ -16,7 +16,7 @@
     </firebase-document>
 
     <app-indexeddb-mirror
-      session="devfest"
+      session="[[app.data.firebase.indexedDbSession]]"
       key="speakers"
       data="{{_firebaseSpeakersRaw}}"
       persisted-data="{{_speakersRaw}}">
@@ -31,7 +31,7 @@
 
     <app-indexeddb-mirror
       session="devfest"
-      key="sessions"
+      key="[[app.data.firebase.indexedDbSession]]"
       data="{{_firebaseSessions}}"
       persisted-data="{{sessions}}">
     </app-indexeddb-mirror>
@@ -44,7 +44,7 @@
     </firebase-document>
 
     <app-indexeddb-mirror
-      session="devfest"
+      session="[[app.data.firebase.indexedDbSession]]"
       key="schedule"
       data="{{_firebaseSchedule}}"
       persisted-data="{{_scheduleRaw}}">
@@ -58,7 +58,7 @@
     </firebase-document>
 
     <app-indexeddb-mirror
-      session="devfest"
+      session="[[app.data.firebase.indexedDbSession]]"
       key="partners"
       data="{{_firebasePartners}}"
       persisted-data="{{app.partners}}">
@@ -72,7 +72,7 @@
     </firebase-document>
 
     <app-indexeddb-mirror
-      session="devfest"
+      session="[[app.data.firebase.indexedDbSession]]"
       key="videos"
       data="{{_firebaseVideos}}"
       persisted-data="{{app.videos}}">
@@ -86,7 +86,7 @@
     </firebase-document>
 
     <app-indexeddb-mirror
-      session="devfest"
+      session="[[app.data.firebase.indexedDbSession]]"
       key="team"
       data="{{_firebaseTeam}}"
       persisted-data="{{app.team}}">
