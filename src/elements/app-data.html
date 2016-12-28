@@ -5,7 +5,8 @@
 
 <dom-module id="app-data">
   <template>
-    <iron-ajax auto url="[[configSource]]" handle-as="json" last-response="{{app.data}}"></iron-ajax> <iron-ajax auto url="[[postsSource]]" handle-as="json" on-response="_reversePosts"></iron-ajax>
+    <iron-ajax auto url="[[configSource]]" handle-as="json" last-response="{{app.data}}">
+    </iron-ajax> <iron-ajax auto url="[[postsSource]]" handle-as="json" on-response="_reversePosts"></iron-ajax>
 
     <template is="dom-if" if="[[app.data]]">
     <firebase-document
