@@ -139,24 +139,32 @@
           '_routePageChanged(routeData.day)',
           '_userChanged(app.user)',
           '_queryParamsChanged(queryParams)',
-          '_filtersChanged(filters.splices)'
+          '_filtersChanged(filters.splices)',
+          '_scheduleChanged(schedule)'
         ],
 
         listeners: {
           'iron-overlay-closed': '_resetSessionIdParam'
         },
 
+        _scheduleChanged: function(schedule) {
+          if (schedule.length) {
+            var dayToSelect = null;
+            var today = new Date().toISOString().substring(0, 10);
+            for (var i = 0, length = this.schedule.length; i < length; i++) {
+              if (today === this.schedule[i].date) {
+                dayToSelect = 'day' + (i + 1);
+              }
+            }
+          }
+
+          this.set('routeData.day', (dayToSelect || 'day1'));
+        },
+
         _routePageChanged: function (day) {
           if (this.selected) {
             if (!day) {
-              var dayToSelect = null;
-              var today = new Date().toISOString().substring(0, 10);
-              for (var i = 0, length = this.schedule.length; i < length; i++) {
-                if (today === this.schedule[i].date) {
-                  dayToSelect = 'day' + (i + 1);
-                }
-              }
-              this.set('routeData.day', (dayToSelect || 'day1'));
+              this.set('routeData.day', 'day1');
             } else if (day === 'myschedule' && !this.app.user) {
               this.set('routeData.day', 'day1');
             } else if (this.app.selectedDay !== day) {
