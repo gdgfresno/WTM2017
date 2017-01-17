@@ -3,15 +3,15 @@
   "startDate": "2016-09-09T09:00:00+03:00",
   "endDate": "2016-09-10T19:00:00+03:00",
   "analytics": {
-    "prod": "UA-43643469-8",
-    "dev": "UA-43643469-9"
+    "prod": "UA-84006029-3",
+    "dev": "UA-84006029-3"
   },
   "organizer": {
-    "name": "GDG Lviv",
+    "name": "WTM 2017",
     "twitter": "gdglviv"
   },
   "webapp": {
-    "shortName": "DevFest",
+    "shortName": "WTM2017",
     "themeColor": "#F57C00",
     "backgroundColor": "#F57C00"
   },
