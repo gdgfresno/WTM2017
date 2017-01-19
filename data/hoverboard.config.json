@@ -1,7 +1,7 @@
 {
-  "url": "https://hoverboard.firebaseapp.com/",
-  "startDate": "2016-09-09T09:00:00+03:00",
-  "endDate": "2016-09-10T19:00:00+03:00",
+  "url": "https://wtm2017-146fd.firebaseapp.com",
+  "startDate": "2017-03-19T09:00:00+03:00",
+  "endDate": "2017-03-19T17:00:00+03:00",
   "analytics": {
     "prod": "UA-84006029-3",
     "dev": "UA-84006029-3"
@@ -12,14 +12,14 @@
   },
   "webapp": {
     "shortName": "WTM2017",
-    "themeColor": "#F57C00",
-    "backgroundColor": "#F57C00"
+    "themeColor": "#00BCD4",
+    "backgroundColor": "#00BCD4"
   },
   "firebase": {
-    "name": "hoverboard-experimental",
-    "domain": "hoverboard-experimental.firebaseapp.com",
-    "database": "https://hoverboard-experimental.firebaseio.com",
-    "api": "AIzaSyALDa2D7CMhK_wt2VkET1MaJuQXYVUJd2I",
+    "name": "wtm2017",
+    "domain": "wtm2017-146fd.firebaseapp.com",
+    "database": "https://wtm2017-146fd.firebaseio.com",
+    "api": "AIzaSyD1d4u68Xt3akar6KsHHEBSU6mthVMkIPs",
     "userSessionsPath": "/userSessions",
     "indexedDbSession": "hoverboard"
   },
@@ -27,11 +27,11 @@
     "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
   },
-  "hashtag": "dfua",
+  "hashtag": "WTMFresno",
   "disqusShortName": "hoverboard-gdg-x",
   "tweetsSource": "/data/tweets.json",
   "partnershipProposition": "http://bit.ly/df16-sponsor",
-  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
+  "videosSessionsUrl": "//www.youtube.com/watch?v=p_o_JWXTVtg",
   "navigation": [
     {
       "route": "home",
@@ -67,8 +67,8 @@
     },
     {
       "name": "facebook",
-      "nickname": "GDGLviv",
-      "url": "https://www.facebook.com/GDGLviv"
+      "nickname": "Women Techmakers Fresno",
+      "url": "//www.facebook.com/wtmfresno/?hc_ref=NEWSFEED&fref=nf"
     },
     {
       "name": "linkedin",
@@ -78,17 +78,17 @@
   ],
   "location": {
     "apiKey": "",
-    "name": "Pivdennyi Expo Center",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
-    "link": "https://www.facebook.com/expopivdennij",
+    "name": "Bitwise South Stadium",
+    "address": "700 Van Ness Ave, Fresno, CA 93721",
+    "link": "//www.facebook.com/BitwiseFresno",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
-      "zoom": 15
+      "latitude": 36.731822,
+      "longitude": -119.785882,
+      "zoom": 16
     },
     "mapCenter": {
-      "latitude": 49.809841,
-      "longitude": 23.982805
+      "latitude": 36.732442,
+      "longitude": -119.780780
     },
     "images": [
       "/images/backgrounds/location_1.jpg",
@@ -97,7 +97,7 @@
     ]
   },
   "gallery": {
-    "albumUrl": "https://plus.google.com/events/gallery/cc6tosp4ohkp6qj9pg5jb4g6o3k?sort=1",
+    "albumUrl": "//plus.google.com/events/gallery/cc6tosp4ohkp6qj9pg5jb4g6o3k?sort=1",
     "photos": {
       "big": "/images/backgrounds/2015_1.jpg",
       "small": [
