@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gdgfresno/WTM2017.svg?branch=develop)](https://travis-ci.org/gdgfresno/WTM2017)
+
 ![preview-web](https://cloud.githubusercontent.com/assets/2954281/17777476/5dbbbe1c-6569-11e6-9cc4-77185ae9bf92.png)
 
 # Project Hoverboard
