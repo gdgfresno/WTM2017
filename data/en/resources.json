@@ -66,7 +66,7 @@
         "tabBarColor": "#fff",
         "video": {
           "title": "WTM",
-          "youtubeId": "TdpbgRgz6eE",
+          "youtubeId": "KUzkig1NIMs",
           "text": "See how it was in 2016"
         },
         "hideLogo": true,
@@ -217,16 +217,16 @@
       "caption": "Days"
     },
     {
-      "counter": 3,
+      "counter": 12,
       "caption": "Sessions"
     },
     {
-      "counter": 3,
+      "counter": 4,
       "caption": "Tracks"
     }
   ],
   "callToAction": {
     "videoTitle": "WTM 2015",
-    "videoId": "DfMnJAzOFng"
+    "videoId": "KUzkig1NIMs"
   }
 }
