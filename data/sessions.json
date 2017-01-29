@@ -13,7 +13,7 @@
   },
   "138": {
     "id": 138,
-    "title": "Conference closing and contest winners announcements",
+    "title": "Panel",
     "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
     "image": "/images/backgrounds/closing.jpg"
   },
@@ -25,7 +25,7 @@
   },
   "136": {
     "id": 136,
-    "title": "GDG DevFest Ukraine 2016 Opening",
+    "title": "Welcome",
     "description": "Official start of the conference. Greetings from the organizers, sponsors and partners.",
     "language": "English",
     "image": "/images/backgrounds/opening.jpg"
