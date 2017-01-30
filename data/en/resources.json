@@ -1,11 +1,11 @@
 {
-  "title": "WTM IWD17",
-  "description": "Women TechMakers 2017 Celebration of IWD",
-  "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
+  "title": "WTM IWDC 2017",
+  "description": "Women Techmakers Telling our Stories International Woman's Day Celebration ",
+  "keywords": "event, WTM, gdg, IWD, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "March 19, 2017",
-  "locationAddressShort": "Lviv, Ukraine",
-  "motto": "Tell our Story!",
-  "playIcon": "See how it was in 2015",
+  "locationAddressShort": "Fresno, CA",
+  "motto": "Tell our Stories!",
+  "playIcon": "See how it was in 2016",
   "c4p": "Become a speaker",
   "buyTicket": "Buy ticket",
   "backToTop": "Back to top",
@@ -29,13 +29,13 @@
   "featuredPeopleViewAll": "View all speakers",
   "action": "See how it was",
   "locationTitle": "BitWise South Staduim",
-  "locationDescription": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event",
+  "locationDescription": "Need content about BitWise here",
   "locationAddress": "Shchyretska St, 36",
   "organizerTitle": "Organizer",
   "aboutOrganizers": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
   "openTeamPage": "Open team page",
-  "whatIsGdg": "What is GDG?",
-  "aboutGdg": "Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
+  "whatIsGdg": "What is WTM?",
+  "aboutGdg": "Women Techmakers (WTM) Fresno - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
   "readMore": "Read more",
   "copyLink": "Copy link",
   "filteredBy": "filtered by",
@@ -131,21 +131,6 @@
         {
           "text": "Google Developers",
           "url": "https://developers.google.com/",
-          "newTab": true
-        },
-        {
-          "text": "GDG DevFest Ukraine 2013",
-          "url": "http://gdg-devfest-ua.appspot.com/",
-          "newTab": true
-        },
-        {
-          "text": "GDG DevFest Ukraine 2014",
-          "url": "http://devfest.gdg.org.ua/2014/",
-          "newTab": true
-        },
-        {
-          "text": "GDG DevFest Ukraine 2015",
-          "url": "http://devfest.gdg.org.ua/2015/",
           "newTab": true
         }
       ]
