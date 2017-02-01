@@ -27,7 +27,7 @@
             "name": "Blog"
           }
         ],
-        "title": "Website and sponsors"
+        "title": "Designer in Cheif"
       },
       {
         "name": "Rio Waller",
@@ -35,16 +35,16 @@
         "socials": [
           {
             "icon": "gplus",
-            "link": "https://plus.google.com/+SofiaHuts",
+            "link": "https://plus.google.com/+RioWaller",
             "name": "Google+"
           },
           {
             "icon": "facebook",
-            "link": "https://www.facebook.com/sophie.huts.7",
+            "link": "https://www.facebook.com/riowaller",
             "name": "Facebook"
           }
         ],
-        "title": "Social and media"
+        "title": "Wise Owl"
       }
     ]
   },
@@ -67,28 +67,6 @@
           }
         ],
         "title": "Cloud stream"
-      },
-      {
-        "name": "Dmytro Danylyk",
-        "photoUrl": "/images/people/dmytro_danylyk.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+DmytroDanylyk",
-            "name": "Google+"
-          },
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/dmytrodanylyk",
-            "name": "Twitter"
-          },
-          {
-            "icon": "website",
-            "link": "http://www.dmytrodanylyk.com/#/about",
-            "name": "Website"
-          }
-        ],
-        "title": "Android Stream"
       }
     ]
   }

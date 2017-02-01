@@ -23,7 +23,7 @@
   "clickToViewPhotos": "Click here to view more photos",
   "partners": "Partners",
   "becomePartner": "Become a partner",
-  "featuredVideosTitle": "Featured #DFUA '15 Sessions",
+  "featuredVideosTitle": "Featured Sessions",
   "featuredVideosViewAll": "View all videos",
   "featuredPeopleTitle": "Rockstar Speakers",
   "featuredPeopleViewAll": "View all speakers",
@@ -32,7 +32,7 @@
   "locationDescription": "Need content about BitWise here",
   "locationAddress": "Shchyretska St, 36",
   "organizerTitle": "Organizer",
-  "aboutOrganizers": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+  "aboutOrganizers": "WTM Fresno Powered by GDG Fresno is proud organizer of WTM IWDC 17",
   "openTeamPage": "Open team page",
   "whatIsGdg": "What is WTM?",
   "aboutGdg": "Women Techmakers (WTM) Fresno - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
@@ -129,8 +129,8 @@
           "newTab": false
         },
         {
-          "text": "Google Developers",
-          "url": "https://developers.google.com/",
+          "text": "Women Techmakers",
+          "url": "https://womentechmakers.com/",
           "newTab": true
         }
       ]
@@ -154,8 +154,8 @@
   "contactBlock": {
     "links": [
       {
-        "text": "devfest@google.com",
-        "url": "mailto:devfest@google.com"
+        "text": "info@wtmfresno.com",
+        "url": "mailto:info@wtmfresno.com"
       }
     ]
   },
@@ -211,7 +211,7 @@
     }
   ],
   "callToAction": {
-    "videoTitle": "WTM 2015",
+    "videoTitle": "WTM 2016",
     "videoId": "KUzkig1NIMs"
   }
 }

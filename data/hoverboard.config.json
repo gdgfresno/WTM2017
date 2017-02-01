@@ -8,7 +8,7 @@
   },
   "organizer": {
     "name": "WTM 2017",
-    "twitter": "gdglviv"
+    "twitter": "wtmfresno"
   },
   "webapp": {
     "shortName": "WTM2017",
@@ -73,7 +73,7 @@
     }
   ],
   "location": {
-    "apiKey": "",
+    "apiKey": "AIzaSyAIPZ2Xy1lZfBt5_qTOiUL5WI9gGC4OrUg",
     "name": "Bitwise South Stadium",
     "address": "700 Van Ness Ave, Fresno, CA 93721",
     "link": "//www.facebook.com/BitwiseFresno",
