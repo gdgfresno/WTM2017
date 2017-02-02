@@ -1,6 +1,6 @@
 {
   "title": "WTM IWDC 2017",
-  "description": "Women Techmakers Telling our Stories International Woman's Day Celebration ",
+  "description": "Women Tech Conference",
   "keywords": "event, WTM, gdg, IWD, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "March 19, 2017",
   "locationAddressShort": "Fresno, CA",
@@ -25,7 +25,7 @@
   "becomePartner": "Become a partner",
   "featuredVideosTitle": "Featured Sessions",
   "featuredVideosViewAll": "View all videos",
-  "featuredPeopleTitle": "Rockstar Speakers",
+  "featuredPeopleTitle": "The World's Most Powerful Women In Tech 2016",
   "featuredPeopleViewAll": "View all speakers",
   "action": "See how it was",
   "locationTitle": "BitWise South Staduim",
@@ -60,7 +60,7 @@
     "home": {
       "title": "Home",
       "headerSettings": {
-        "backgroundColor": "#00BCD4",
+        "backgroundColor": "#292827",
         "backgroundImage": "/images/backgrounds/home.png",
         "fontColor": "#fff",
         "tabBarColor": "#fff",

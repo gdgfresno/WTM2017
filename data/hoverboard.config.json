@@ -12,8 +12,8 @@
   },
   "webapp": {
     "shortName": "WTM2017",
-    "themeColor": "#00BCD4",
-    "backgroundColor": "#00BCD4"
+    "themeColor": "#292827",
+    "backgroundColor": "#292827"
   },
   "firebase": {
     "name": "wtm2017",
