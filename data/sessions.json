@@ -147,7 +147,7 @@
     "language": "English",
     "complexity": "Intermediate",
     "tags": [
-      "Cloud"
+      "Cloud Next"
     ]
   },
   "124": {
@@ -257,7 +257,7 @@
     "language": "English",
     "complexity": "Beginner",
     "tags": [
-      "Cloud"
+      "Cloud Next"
     ],
     "presentation":"https://speakerdeck.com/gdglviv/sergii-khomenko-building-data-pipelines-from-simple-to-more-advanced-hands-on-experience"
   },
@@ -313,7 +313,7 @@
     "language": "English",
     "complexity": "Intermediate",
     "tags": [
-      "Cloud"
+      "Cloud Next"
     ],
     "presentation":"https://speakerdeck.com/gdglviv/jean-baptiste-clion-microservices-in-google-app-engine"
   },
@@ -368,7 +368,7 @@
     "language": "English",
     "complexity": "Beginner",
     "tags": [
-      "Cloud"
+      "Cloud Next"
     ],
     "presentation":"https://speakerdeck.com/gdglviv/jozef-vodicka-how-much-money-firebase-can-save-you"
   },
@@ -425,7 +425,7 @@
     "language": "English",
     "complexity": "Intermediate",
     "tags": [
-      "Cloud"
+      "Cloud Next"
     ],
     "presentation":"https://speakerdeck.com/gdglviv/rustem-arzymbetov-intro-to-tensorflow",
     "videoId": "e3cuSz1hEPs"
@@ -469,7 +469,7 @@
     "language": "English",
     "complexity": "Beginner",
     "tags": [
-      "Cloud"
+      "Cloud Next"
     ]
   },
   "101": {
@@ -482,7 +482,7 @@
     "language": "English",
     "complexity": "Beginner",
     "tags": [
-      "Cloud"
+      "Cloud Next"
     ],
     "presentation":"https://speakerdeck.com/gdglviv/mete-atamel-windows-and-net-on-google-cloud-platform"
   }
