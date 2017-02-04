@@ -39,11 +39,55 @@
     ]
   },
   {
-    "title": "Program Committee",
+    "title": "Communications + Design Committee",
     "members": [
       {
-        "name": "Ihor Dvoretskyi",
+        "name": "Patricia Popescu",
+        "photoUrl": "/images/people/patricia.jpg",
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/idvoretskyi",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/idvoretskyi",
+            "name": "Twitter"
+          }
+        ],
+        "title": "Lead"
+      }
+    ]
+  },
+  {
+    "title": "Logistics + Food Committee",
+    "members": [
+      {
+        "name": "Joshwin Greene",
         "photoUrl": "/images/people/ihor_dvoretskyi.jpg",
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/idvoretskyi",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/idvoretskyi",
+            "name": "Twitter"
+          }
+        ],
+        "title": "Lead"
+      }
+    ]
+  },
+  {
+    "title": "Makers Space",
+    "members": [
+      {
+        "name": "Andrew Runner",
+        "photoUrl": "/images/people/andrew.jpg",
         "socials": [
           {
             "icon": "facebook",

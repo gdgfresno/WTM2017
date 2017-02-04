@@ -1,10 +1,11 @@
 {
   "title": "Women Techmkers International Women's Day Celebration 2017",
-  "description": "Women Tech Conference",
+  "description": "A Women’s Tech Conference",
   "keywords": "event, WTM, gdg, IWD, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "March 19, 2017",
   "locationAddressShort": "Fresno, CA",
-  "motto": "Tell our Stories!",
+  "motto": "Telling our Stories!",
+  "mottocont": "BitWise South Staduim!",
   "playIcon": "See how it was in 2016",
   "c4p": "Become a speaker",
   "buyTicket": "Buy ticket",
@@ -23,11 +24,11 @@
   "clickToViewPhotos": "Click here to view more photos",
   "partners": "Partners",
   "becomePartner": "Become a partner",
-  "featuredVideosTitle": "Featured Sessions",
+  "featuredVideosTitle": "Past Events",
   "featuredVideosViewAll": "View all videos",
-  "featuredPeopleTitle": "The World's Most Powerful Women In Tech 2016",
-  "featuredPeopleViewAll": "View all speakers",
-  "action": "See how it was",
+  "featuredPeopleTitle": "Meet This Year’s Speakers - COMING SOON!!!",
+  "featuredPeopleViewAll": "",
+  "action": "",
   "locationTitle": "BitWise South Staduim",
   "locationDescription": "Need content about BitWise here",
   "locationAddress": "Shchyretska St, 36",
@@ -199,7 +200,7 @@
     },
     {
       "counter": 1,
-      "caption": "Days"
+      "caption": "Day"
     },
     {
       "counter": 12,
@@ -211,7 +212,7 @@
     }
   ],
   "callToAction": {
-    "videoTitle": "WTM 2016",
-    "videoId": "KUzkig1NIMs"
+    "videoTitle": "",
+    "videoId": ""
   }
 }
