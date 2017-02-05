@@ -135,22 +135,8 @@
           "newTab": true
         }
       ]
-    },
-    {
-      "title": "For Partners",
-      "links": [
-        {
-          "text": "Partnership Proposition",
-          "url": "http://bit.ly/df16-sponsor",
-          "newTab": true
-        },
-        {
-          "text": "Media Kit",
-          "url": "http://bit.ly/df16-media",
-          "newTab": true
-        }
-      ]
     }
+
   ],
   "contactBlock": {
     "links": [
@@ -161,7 +147,7 @@
     ]
   },
   "teamPageTitle": "Team",
-  "teamPageText": "We are very proud of the amazing team that has stepped up to create this years event!  They are amazing folks withe amazing skills!!!",
+  "teamPageText": "We are very proud of the amazing team that has stepped up to create this years event!  They are amazing folks with amazing skills!!!",
   "statistics": [
     {
       "counter": 200,
