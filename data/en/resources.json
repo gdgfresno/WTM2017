@@ -5,7 +5,7 @@
   "dates": "March 19, 2017",
   "locationAddressShort": "Fresno, CA",
   "motto": "Telling our Stories!",
-  "mottocont": "BitWise South Staduim!",
+  "mottocont": "BitWise South Staduim",
   "playIcon": "See how it was in 2016",
   "c4p": "Become a speaker",
   "buyTicket": "Buy ticket",
@@ -14,8 +14,8 @@
   "yourEmail": "Your email",
   "subscribeNote": "No spam, only the latest news and updates!",
   "contactUs": "Contact us",
-  "ticketsTitle": "Tickets",
-  "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
+  "ticketsTitle": "",
+  "ticketsDetails": "",
   "close": "Close",
   "soldOutTickets": "Sold Out",
   "socialTitle": "Social",
@@ -157,37 +157,6 @@
       {
         "text": "info@wtmfresno.com",
         "url": "mailto:info@wtmfresno.com"
-      }
-    ]
-  },
-  "tickets": {
-    "url": "http://2event.com/events/630032",
-    "elements": [
-      {
-        "name": "Student",
-        "price": 10,
-        "currency": "$",
-        "starts": "May 1",
-        "ends": "Sep 8",
-        "info": "Requires valid student ID",
-        "soldOut": false
-      },
-      {
-        "name": "Early Bird",
-        "price": 750,
-        "currency": "$",
-        "starts": "May 1",
-        "ends": "July 1",
-        "info": "Or first 100 tickets",
-        "soldOut": false
-      },
-      {
-        "name": "Lazy Bird",
-        "price": 1000,
-        "currency": "$",
-        "starts": "July 1",
-        "ends": "Sep 8",
-        "soldOut": false
       }
     ]
   },
