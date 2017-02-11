@@ -1,117 +1,107 @@
 {
-    "1": {
-        "id": 1,
+    "2": {
+        "id": 2,
         "featured": true,
-        "name": "Speaker 1",
-        "title": "Developer Advocate",
-        "company": "",
-        "companyLogo": "",
+        "name": "Aileen Rizo",
+        "title": "Research Associate in Mathematics Education",
+        "company": "AIMS Center for Math and Science",
+        "companyLogo": "/images/logos/aim.png",
         "country": "",
-        "photoUrl": "/images/people/notyet.jpg",
-        "shortBio": "Need Content",
-        "bio": "Mete is a Developer Advocate at Google, currently focused on helping developers with Google Cloud Platform. As a long-time Java and a recent C# developer, he likes to compare the two ecosystems. Prior to Google, he worked at Microsoft, Skype, Adobe, EMC, and Nokia building apps and services on various web, mobile and cloud platforms. Originally from Cyprus, he currently lives in Greenwich, not too far away from the prime meridian.",
+        "photoUrl": "/images/people/aileen.jpg",
+        "shortBio": "Aileen Rizo is a Research Associate for the AIMS Center. She has worked in math education for 20+ years in roles such as...",
+        "bio": "Aileen Rizo is a Research Associate for the AIMS Center. She has worked in math education for 20+ years in roles such as – classroom teacher, curriculum designer, educational consultant, and adjunct faculty. She has also served in state capacities with the California Department of Education as a Math Reviewer and is currently a Network Educator for the Smarter Balanced Digital Library. Aileen earned a Masters in Educational Technology from Northern Arizona University and her second Masters in Mathematics Education from Fresno Pacific University. She is an advocate for the equity of women and girls for which she was awarded a Trailblazer:Catalysts for Change by local/state government representatives. Aileen’s passion in STEM fields fueled her to realize the importance of providing children with powerful educational experiences. Her own children inspire her current work with the early math team in an effort to bring equitable math experiences to young children.",
         "tags": [
-            "Cloud",
-            "Compute Engine",
-            "gRPC"
+            "STEM",
+            "Education"
         ],
         "badges": [
 
         ],
         "socials": [
             {
-                "icon": "linkedin",
-                "name": "LinkedIn",
-                "link": "https://www.linkedin.com/in/meteatamel/"
+                "icon": "facebook",
+                "name": "Facebook",
+                "link": "https://www.facebook.com/STEMactivitiesforkids/"
             },
             {
                 "icon": "twitter",
                 "name": "Twitter",
-                "link": "https://twitter.com/meteatamel/"
+                "link": "https://twitter.com/witeroez"
             },
             {
-                "icon": "github",
-                "name": "GitHub",
-                "link": "https://github.com/meteatamel/"
+              "icon": "linkedin",
+              "name": "LinkedIn",
+              "link": "https://www.linkedin.com/in/aileen-rizo-acosta-4ba07656?trk=hp-identity-name"
             }
         ]
     },
-    "2": {
-        "id": 2,
+    "1": {
+        "id": 1,
         "featured": true,
-        "name": "Yonatan Levin",
-        "title": "Android Evangelist & Developer",
-        "company": "Gett",
-        "companyLogo": "/images/logos/gdg-lviv.svg",
-        "country": "Tel Aviv, Israel",
-        "photoUrl": "/images/people/yonatan_levin.jpg",
-        "shortBio": "Born with the spirit of an entrepreneur, Yonatan loves to create, build and just do fun stuff in...",
-        "bio": "Born with the spirit of an entrepreneur, Yonatan loves to create, build and just do fun stuff in the technology field.\nYonatan is one of the top Israeli mobile developers, who is also a part of an elite worldwide group of Google Developer Experts.\nHis primary expertise is Android and Mobile UX, but is also friendly to backend technologies and people in general :)\nFounded and led 3 startups in the past, recently received funding for his new startup which is on the make.\nCurrently, Yonatan is taking a part of the startup Gett - the largest on-demand transportation, delivery, and logistics company which already raised more than $500M",
+        "name": "Saori Ichikawa-Jansen",
+        "title": "Data Analyst",
+        "company": "Fresno Unified School District",
+        "companyLogo": "/images/logos/fusd.png",
+        "country": "",
+        "photoUrl": "/images/people/sjansen.jpg",
+        "shortBio": "Saori is a Data Analyst at Fresno Unified School District and co-founded CoderGirlz",
+        "bio": "Saori is a Data Analyst at Fresno Unified School District and co-founded CoderGirlz, an after-school coding club for girls. She works in the district's IT department, organizes the annual Tournament of Technology and is deeply invested in addressing the underrepresentation of women and minorities in STEM fields. Saori earned a Masters in Mathematics from California State University, Fresno and teaches part-time at local community colleges.",
         "tags": [
-            "Android",
-            "Doze",
-            "Mobile UX",
-            "Entrepreneurship"
+            "IT",
+            "CoderGilz",
+            "STEM"
         ],
         "badges": [
-            {
-                "name": "GDE",
-                "description": "Android Google Developer Expert",
-                "link": "https://developers.google.com/experts/people/yonatan-levin.html"
-            }
+
         ],
         "socials": [
-            {
-                "icon": "facebook",
-                "name": "Facebook",
-                "link": "https://www.facebook.com/levin.yonatan"
-            },
+
             {
                 "icon": "twitter",
                 "name": "Twitter",
-                "link": "https://twitter.com/parahall"
+                "link": "https://twitter.com/FUSDCoderGirlz"
             },
             {
-                "icon": "gplus",
-                "name": "Google+",
-                "link": "https://plus.google.com/+YonatanLevin"
+              "icon": "linkedin",
+              "name": "LinkedIn",
+              "link": "https://www.linkedin.com/in/saori-jansen-54790755"
             }
         ]
     },
     "3": {
         "id": 3,
         "featured": true,
-        "name": "Sascha Wolter",
-        "title": "Senior Developer Evangelist Connected Home",
-        "company": "Duetsche Telekom AG - Group Innovation+",
-        "companyLogo": "/images/logos/gdg-lviv.svg",
-        "country": "Munich and Dusseldorf, Germany",
-        "photoUrl": "/images/people/sascha_wolter.jpg",
-        "shortBio": "UX enthusiast with passion for the IoT. Board member of the Usability & User Experience committee at the federal association BITKOM.",
-        "bio": "Sascha Wolter is a professional developer and user experience enthusiast with passion for the Internet of Things in all flavors. He also works as a consultant, trainer, lecturer, keynote-speaker, and author who focusses on understanding, innovation and value. Sascha is the founder of the User Group flashforum.de with more than 100,000 members, and as such he is committed to the interests of the user. After organizing internationally renowned events like beyond tellerrand from 2001 to 2011, he is now board member of the Usability & User Experience committee at the federal association BITKOM. When he is not tinkering with new soft- and hardware for Deutsche Telekom AG \u2013 Connected Home, he likes discovering the world together with his kids in an odd way.",
+        "name": "Laura Huisinga",
+        "title": "Assistant Professor",
+        "company": "Fresno State",
+        "companyLogo": "/images/logos/fresnostatelogo.png",
+        "country": "",
+        "photoUrl": "/images/people/laura.jpg",
+        "shortBio": "Laura Huisinga is an artist, designer, and educator. She currently teaches in the Multimedia and Interaction BFA..",
+        "bio": "Laura Huisinga is an artist, designer, and educator. She currently teaches in the Multimedia and Interaction BFA design track at Fresno State. She has a passion for strong UX design and is interested in how augmented reality could be used in education. Laura has her MFA in graphic design from Iowa State University and has worked as a front-end-developer in Des Moines, Iowa. She is currently finishing her PhD at Iowa State University in Human Computer Interaction and loves teaching at Fresno State.",
         "tags": [
-            "Web",
-            "IoT",
-            "Smart Home"
+            "Designer",
+            "UX/UX",
+            "Front-End"
         ],
         "badges": [
 
         ],
         "socials": [
             {
-                "icon": "website",
-                "name": "Website",
-                "link": "http://www.wolter.biz"
+              "icon": "website",
+              "name": "Website",
+              "link": "http://laurahuisinga-design.com"
             },
             {
                 "icon": "twitter",
                 "name": "Twitter",
-                "link": "http://twitter.com/saschawolter"
+                "link": "http://twitter.com/huisinga_design"
             },
             {
                 "icon": "linkedin",
                 "name": "LinkedIn",
-                "link": "http://www.linkedin.com/pub/sascha-wolter/5/a38/493"
+                "link": "http://www.linkedin.com/pub/laura-huisinga-64173418"
             }
         ]
     },
