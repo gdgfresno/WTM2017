@@ -9,22 +9,27 @@
       },
       {
         "name": "Fresno Unified School District",
-        "url": "https://www.google.com.ua/intl/en/about/",
+        "url": "https://www.fresnounified.org/",
         "logoUrl": "../images/logos/fusd.png"
       },
       {
-        "name": "Lydes Center",
-        "url": "https://gdgfresno.com",
+        "name": "Lyles Center",
+        "url": "http://www.fresnostate.edu/academics/lylescenter/",
         "logoUrl": "../images/logos/lyles.png"
       },
       {
         "name": "Moore SEO",
-        "url": "https://gdgfresno.com",
+        "url": "http://www.moorethanseo.com/",
         "logoUrl": "../images/logos/moore.png"
       },  {
         "name": "IdeaWorks",
-        "url": "https://gdgfresno.com",
+        "url": "http://fresnoideaworks.org/wp/",
         "logoUrl": "../images/logos/ideaworks.jpg"
+      },
+      {
+        "name": "59 Days of Code",
+        "url": "http://59daysofcode.com/",
+        "logoUrl": "../images/logos/59DOC.png"
       }
     ]
   }
