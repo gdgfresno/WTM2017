@@ -17,7 +17,7 @@
   },
   "firebase": {
     "name": "wtm2017",
-    "domain": "iwdc.wtmfresno.com",
+    "domain": "wtm2017-146fd.firebaseapp.com",
     "database": "https://wtm2017-146fd.firebaseio.com",
     "api": "AIzaSyD1d4u68Xt3akar6KsHHEBSU6mthVMkIPs",
     "userSessionsPath": "/userSessions",

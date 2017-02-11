@@ -1,16 +1,30 @@
 [
   {
-    "title": "General partner",
+    "title": "",
     "logos": [
-      {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/logos/google.svg"
-      },
       {
         "name": "GDG Fresno",
         "url": "https://gdgfresno.com",
-        "logoUrl": "../images/logos/gdg-x.svg"
+        "logoUrl": "../images/logos/gdgfresno.png"
+      },
+      {
+        "name": "Fresno Unified School District",
+        "url": "https://www.google.com.ua/intl/en/about/",
+        "logoUrl": "../images/logos/fusd.png"
+      },
+      {
+        "name": "Lydes Center",
+        "url": "https://gdgfresno.com",
+        "logoUrl": "../images/logos/lyles.png"
+      },
+      {
+        "name": "Moore SEO",
+        "url": "https://gdgfresno.com",
+        "logoUrl": "../images/logos/moore.png"
+      },  {
+        "name": "IdeaWorks",
+        "url": "https://gdgfresno.com",
+        "logoUrl": "../images/logos/ideaworks.jpg"
       }
     ]
   }
