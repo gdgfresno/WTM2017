@@ -4,7 +4,7 @@
   "keywords": "event, WTM, gdg, IWD, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "March 19, 2017",
   "locationAddressShort": "Fresno, CA",
-  "motto": "Telling our Stories!",
+  "motto": "",
   "mottocont": "BitWise South Staduim",
   "playIcon": "See how it was in 2016",
   "c4p": "Become a speaker",
@@ -26,7 +26,7 @@
   "becomePartner": "Become a partner",
   "featuredVideosTitle": "Past Events",
   "featuredVideosViewAll": "View all videos",
-  "featuredPeopleTitle": "Meet This Year’s Speakers - COMING SOON!!!",
+  "featuredPeopleTitle": "Meet This Year’s Speakers",
   "featuredPeopleViewAll": "",
   "action": "",
   "locationTitle": "BitWise South Staduim",
@@ -147,7 +147,7 @@
     ]
   },
   "teamPageTitle": "Team",
-  "teamPageText": "We are very proud of the amazing team that has stepped up to create this years event!  They are amazing folks with amazing skills!!!",
+  "teamPageText": "Meet the amazing people who made this event happen:",
   "statistics": [
     {
       "counter": 200,
