@@ -2,11 +2,11 @@
     "date": "2017-03-19",
     "dateReadable": "March 19",
     "tracks": [{
-        "title": "BitWise South Staduim TBA"
+        "title": ""
     }, {
-        "title": "BitWise South Staduim TBA"
+        "title": ""
     }, {
-        "title": "BitWise South Staduim TBA"
+        "title": ""
     }],
     "timeslots": [{
         "startTime": "09:00",
@@ -24,7 +24,7 @@
         "startTime": "10:15",
         "endTime": "11:00",
         "sessions": [
-            [139]
+            [138]
         ]
     }, {
         "startTime": "11:00",
@@ -59,6 +59,13 @@
           [104],
           [105]
         ]
-    }
+    },
+      {
+        "startTime": "15:30",
+        "endTime": "16:00",
+        "sessions": [
+          [137]
+        ]
+      }
     ]
 }]

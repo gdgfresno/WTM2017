@@ -1,6 +1,6 @@
 [
   {
-    "title": "Core Team",
+    "title": "Conference Leadership",
     "members": [
       {
         "name": "Nancy Mohamed",
@@ -39,8 +39,25 @@
     ]
   },
   {
-    "title": "Communications + Design Committee",
+    "title": "Committee Leaders",
     "members": [
+      {
+        "name": "Joshwin Greene",
+        "photoUrl": "/images/people/joshwin.jpg",
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/joshwin.greene",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com",
+            "name": "Twitter"
+          }
+        ],
+        "title": "Lead"
+      },
       {
         "name": "Patricia Popescu",
         "photoUrl": "/images/people/patricia.jpg",
@@ -57,15 +74,66 @@
           }
         ],
         "title": "Lead"
+      },
+      {
+        "name": "Andrew Runner",
+        "photoUrl": "/images/people/andrew.jpg",
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com",
+            "name": "Twitter"
+          }
+        ],
+        "title": "Makerspace Lead"
       }
     ]
   },
   {
-    "title": "Logistics + Food Committee",
+    "title": "Committee Members",
     "members": [
       {
-        "name": "Joshwin Greene",
-        "photoUrl": "/images/people/joshwin.jpg",
+        "name": "Lucy G. Alvarado",
+        "photoUrl": "/images/people/lucy.jpg",
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/",
+            "name": "Twitter"
+          }
+        ],
+        "title": "Logistics"
+      },
+      {
+        "name": "Melody Boates",
+        "photoUrl": "/images/people/melody",
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com",
+            "name": "Twitter"
+          }
+        ],
+        "title": "Makerspace"
+      },
+      {
+        "name": "Wendy Chrisco",
+        "photoUrl": "/images/people/wendy.jpg",
         "socials": [
           {
             "icon": "facebook",
@@ -78,15 +146,100 @@
             "name": "Twitter"
           }
         ],
-        "title": "Lead"
+        "title": "Comm + Design"
+      },
+      {
+        "name": "Charmaine George",
+        "photoUrl": "/images/people/charmaine.jpg",
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/",
+            "name": "Twitter"
+          }
+        ],
+        "title": "Logistics"
+      },
+      {
+        "name": "Rebecca Miller",
+        "photoUrl": "/images/people/rebecca.jpg",
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com",
+            "name": "Twitter"
+          }
+        ],
+        "title": "Logistics"
+      },
+      {
+        "name": "Shel Moore",
+        "photoUrl": "/images/people/shel.jpg",
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/",
+            "name": "Twitter"
+          }
+        ],
+        "title": "Comm + Design"
+      },
+      {
+        "name": "Lordes \"Lulu\" Olivia",
+        "photoUrl": "/images/people/lulu.jpg",
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com",
+            "name": "Twitter"
+          }
+        ],
+        "title": "Logistics"
+      },
+      {
+        "name": "Laura Stanger",
+        "photoUrl": "/images/people/lauren.png",
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/",
+            "name": "Twitter"
+          }
+        ],
+        "title": "Comm + Design"
       }
     ]
   },
   {
-    "title": "Makers Space",
+    "title": "Additional Talent",
     "members": [
       {
-        "name": "Andrew Runner",
+        "name": "Gabriel Gatchalian",
         "photoUrl": "/images/people/andrew.jpg",
         "socials": [
           {
@@ -100,7 +253,24 @@
             "name": "Twitter"
           }
         ],
-        "title": "Cloud stream"
+        "title": "Graphic Designer"
+      },
+      {
+        "name": "Alex Fang",
+        "photoUrl": "/images/people/needpic.png",
+        "socials": [
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/joshwin.greene",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/idvoretskyi",
+            "name": "Twitter"
+          }
+        ],
+        "title": "Photographer"
       }
     ]
   }
