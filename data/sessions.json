@@ -363,60 +363,56 @@
   },
   "109": {
     "id": 109,
-    "title": "How much money Firebase can save you",
-    "description": "TBD",
+    "title": "'Real World' not 'Hello World' advanced iOS, Android & React native development",
+    "description": "The current way native mobile development is taught is at best incomplete and at worst completely misinformative.  This session will be presenting a more holistic way of learning or expanding a developer's understanding of building for native mobile iOS & Android.  We begin by showing the absolute beginner the highest quality resources needed to learn (free).  Then the session discusses what most mobile developers wish they knew before they started.  The best libraries, tools, tips, tricks and common mistakes to avoid before writing the first line of code.  We follow with a review of how major companies develop mobile apps internally by exploring their open source projects and current publications regarding their latest advancements in native iOS & Android mobile development.  We conclude by discussing the key issues behind using analytics to drive distribution and monetization.",
     "speakers": [
       7
     ],
     "language": "English",
     "complexity": "Beginner",
     "tags": [
-      "Cloud Next"
+      "Tech Talks"
     ],
-    "presentation":"https://speakerdeck.com/gdglviv/jozef-vodicka-how-much-money-firebase-can-save-you"
+    "presentation":""
   },
   "108": {
     "id": 108,
-    "title": "New Data Architecture in Angular 2",
-    "description": "Angular 2 introduces a new Data Architecture based on Reactive Programming using RxJS 5. We are really excited to see the new approach using Observable sequences aka Observables. We will cover a basic introduction of Angular 2 followed by RxJS 5 and the new HTTP API covering some basic use cases.",
+    "title": "Creative Code: Programming on the Right Side",
+    "description": "The current mantra seems to be \"Everyone Can Learn to Code\" and yet most of the languages and environments we teach were created for, and by, tech-minded people. What about the rest of us? Well, there is another way. In fact, there is a whole world of artists and designers who program. Join Fresno State Professor Rusty Robison and see what \"right-brained\" people have created and the tools that have helped them become creative coders.",
     "speakers": [
-      6
-    ],
-    "language": "English",
-    "complexity": "Intermediate",
-    "tags": [
-      "ui-ux"
-    ],
-    "presentation":"https://speakerdeck.com/gdglviv/gerard-sans-new-data-architecture-in-angular-2",
-    "videoId": "pgmLkwD-mqM"
-  },
-  "107": {
-    "id": 107,
-    "title": "Introduction to Progressive Web Apps in Angular 2",
-    "description": "There's been much discussion about Progressive Web Apps. They're still a relatively new model. In this talk, I'll summarise few options and techniques for getting started with your own Progressive Web App",
-    "speakers": [
-      6
+      5
     ],
     "language": "English",
     "complexity": "Beginner",
     "tags": [
-      "ui-ux"
+      "UX UI"
+    ]
+  },
+  "107": {
+    "id": 107,
+    "title": "UI Design for AR: thinking past the screen",
+    "description": "Augmented reality (AR) allows for the blending of digital and physical worlds. Recently, there have been exciting advances in AR technology. AR is changing how we interact with devices and our environment to consume content. How will designing user interfaces (UI) for AR be different than traditional screen based designs? What ethical consideration should we be taking into account during UI design? The user experience of AR will greatly benefit from designers considering UI design though the changing lens of augmented reality as a medium.",
+    "speakers": [
+      3
+    ],
+    "language": "English",
+    "complexity": "Beginner",
+    "tags": [
+      "UX UI"
     ]
   },
   "106": {
     "id": 106,
-    "title": "Fuelio. Success story",
-    "description": "Fuelio. Success story (I'll write more info later)",
+    "title": "Pixel Push: How to Conquer as a UI/UX Designer ",
+    "description": "I absolutely love being a designer and I would love to share tips on how to master your craft and build confidence as a female UI/UX designer in the tech world.",
     "speakers": [
-      5
+      4
     ],
     "language": "GeekWise Rm 5",
-    "complexity": "Beginner",
+    "complexity": "beginner",
     "tags": [
-      "Ideaworks"
-    ],
-    "presentation":"https://speakerdeck.com/gdglviv/adrian-kajda-fuelio-success-story",
-    "videoId": "qK7ysoohsaM"
+      "UX UI"
+    ]
   },
   "105": {
     "id": 105,
