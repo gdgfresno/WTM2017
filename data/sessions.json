@@ -53,9 +53,14 @@
   "132": {
     "id": 132,
     "title": "Registration & morning Coffee",
+<<<<<<< HEAD
     "description": "Get your badge, coffee, enjoy talking with tech edicts around",
     "image": "/images/backgrounds/registration.jpg",
     "language": "BitWise South Staduim Lobby"
+=======
+    "description": "Get your badge, coffee, enjoy talking with tech addicts around",
+    "image": "/images/backgrounds/registration.jpg"
+>>>>>>> origin/develop
   },
   "131": {
     "id": 131,
@@ -177,7 +182,7 @@
     "language": "English",
     "complexity": "Beginner",
     "tags": [
-      "ui-ux"
+      "UX UI"
     ]
   },
   "122": {
@@ -205,7 +210,7 @@
     "language": "English",
     "complexity": "Intermediate",
     "tags": [
-      "ui-ux"
+      "UX UI"
     ]
   },
   "120": {
@@ -218,7 +223,7 @@
     "language": "English",
     "complexity": "Beginner",
     "tags": [
-      "ui-ux"
+      "UX UI"
     ],
     "presentation":"https://speakerdeck.com/gdglviv/jakub-skvara-progressive-web-apps-prepare-your-web-for-2017"
   },
@@ -274,7 +279,7 @@
     "language": "English",
     "complexity": "Beginner",
     "tags": [
-      "ui-ux"
+      "UX UI"
     ],
     "presentation":"http://carmenpopoviciu.github.io/on-polymer-and-smileys/"
   },
@@ -330,7 +335,7 @@
     "language": "English",
     "complexity": "Intermediate",
     "tags": [
-      "ui-ux"
+      "UX UI"
     ]
   },
   "111": {
@@ -386,7 +391,13 @@
     "complexity": "Beginner",
     "tags": [
       "UX UI"
+<<<<<<< HEAD
     ]
+=======
+    ],
+    "presentation":"https://speakerdeck.com/gdglviv/gerard-sans-new-data-architecture-in-angular-2",
+    "videoId": "pgmLkwD-mqM"
+>>>>>>> origin/develop
   },
   "107": {
     "id": 107,
