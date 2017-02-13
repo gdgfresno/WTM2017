@@ -53,14 +53,9 @@
   "132": {
     "id": 132,
     "title": "Registration & morning Coffee",
-<<<<<<< HEAD
     "description": "Get your badge, coffee, enjoy talking with tech edicts around",
     "image": "/images/backgrounds/registration.jpg",
     "language": "BitWise South Staduim Lobby"
-=======
-    "description": "Get your badge, coffee, enjoy talking with tech addicts around",
-    "image": "/images/backgrounds/registration.jpg"
->>>>>>> origin/develop
   },
   "131": {
     "id": 131,
@@ -182,7 +177,7 @@
     "language": "English",
     "complexity": "Beginner",
     "tags": [
-      "UX UI"
+      "ui-ux"
     ]
   },
   "122": {
@@ -210,7 +205,7 @@
     "language": "English",
     "complexity": "Intermediate",
     "tags": [
-      "UX UI"
+      "ui-ux"
     ]
   },
   "120": {
@@ -223,7 +218,7 @@
     "language": "English",
     "complexity": "Beginner",
     "tags": [
-      "UX UI"
+      "ui-ux"
     ],
     "presentation":"https://speakerdeck.com/gdglviv/jakub-skvara-progressive-web-apps-prepare-your-web-for-2017"
   },
@@ -279,7 +274,7 @@
     "language": "English",
     "complexity": "Beginner",
     "tags": [
-      "UX UI"
+      "ui-ux"
     ],
     "presentation":"http://carmenpopoviciu.github.io/on-polymer-and-smileys/"
   },
@@ -335,36 +330,36 @@
     "language": "English",
     "complexity": "Intermediate",
     "tags": [
-      "UX UI"
+      "ui-ux"
     ]
   },
   "111": {
     "id": 111,
-    "title": "Building modular architecture apps with Dagger 2",
-    "description": "It's beauty, it's handy, it's fast, it's easy - all about Dagger 2",
+    "title": " Why Do They Come – Why Do They Stay?",
+    "description": "Career Motivations Among Technical Undergraduate Students - n this presentation I will discuss an empirical study examining the reasons why undergraduate female students select and remain computer science majors at Carnegie Mellon University. At the end we will explore together ways to increase the diversity and inclusivity of people entering the technology sector.",
     "speakers": [
       9
     ],
     "language": "English",
     "complexity": "Intermediate",
     "tags": [
-      "Ideaworks"
+      "Tech Talks"
     ],
-    "presentation":"https://speakerdeck.com/gdglviv/kseniia-shumelchyk-building-modular-architecture-apps-with-dagger-2"
+    "presentation":"https://www.dropbox.com/s/hffqwk6gfyhfhld/WhyDoTheyCome_WhyDoTheyStay.pdf?dl=0"
   },
   "110": {
     "id": 110,
-    "title": "The ultimate guide to MVP pattern on Android",
-    "description": "There's a lot of hype around MVP pattern in the Android world. Now it's time for concretes. During his presentation Mateusz will tell you how IG divided responsibilities between pattern's different components, how they tied Presenters' and Views' lifecycles and what they did to make it all testable. If you'd love to make your Fragments' and Activities' code simpler and increase your coverage, but you're confused how to glue it all together - don't miss Mateusz's talk.",
+    "title": "The Upside Down Approach To Launching an App",
+    "description": "This session will discuss how to launch and market a mobile application utilizing  little budget, little time and random/ out of the box methods to approach the intended demographic",
     "speakers": [
       8
     ],
     "language": "English",
-    "complexity": "Intermediate",
+    "complexity": "Beginner",
     "tags": [
-      "Ideaworks"
+      "Tech Talks"
     ],
-    "presentation":"https://speakerdeck.com/gdglviv/mateusz-herych-the-ultimate-guide-to-mvp-pattern-on-android"
+    "presentation":""
   },
   "109": {
     "id": 109,
@@ -391,13 +386,7 @@
     "complexity": "Beginner",
     "tags": [
       "UX UI"
-<<<<<<< HEAD
     ]
-=======
-    ],
-    "presentation":"https://speakerdeck.com/gdglviv/gerard-sans-new-data-architecture-in-angular-2",
-    "videoId": "pgmLkwD-mqM"
->>>>>>> origin/develop
   },
   "107": {
     "id": 107,

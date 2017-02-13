@@ -236,18 +236,16 @@
     "8": {
         "id": 8,
         "featured": true,
-        "name": "Csaba Toth",
-        "title": "Universal software engineer (can tackle any problem), Speaker, User Group junkie",
-        "company": "WestShore Technologies Inc., Csaba Technology Services, LLC",
+        "name": "Kelly Lamb",
+        "title": "CEO of Tech Company- Helpfulist",
+        "company": "Helpfulist",
         "companyLogo": "/images/logos/gdgfresno.png",
         "country": "",
-        "photoUrl": "/images/people/csaba.jpg",
-        "shortBio": "Full stack developer in Fresno and a user group junkie. He was C/C++ CAD software developer... ",
-        "bio": "Full stack developer in Fresno and a user group junkie. He was C/C++ CAD software developer in the past and actively worked and working with .NET, Java and Python technology stacks including JS/HTML5/CSS front end (besides many).",
+        "photoUrl": "/images/people/needpic.png",
+        "shortBio": "Kelly Lamb is the Founder and CEO of Helpfulist. She began her passion... ",
+        "bio": "Kelly Lamb is the Founder and CEO of Helpfulist. She began her passion as an entrepreneur began in high school when working with start-up companies creating and executing long-term strategic/business plans for them.  She has worked in the fields of Business Strategy, Marketing Management, Promotions, and Advertising for over 9 years. At the age of 17, Kelly was the youngest Marketing Manager in Central California for an industry-leading tax company . Kelly is recognized for her innovative and unorthodox marketing & strategic planning methods. Along with being the CEO of Helpfulist, Kelly stays active in the community mentoring teenagers in leadership and building their own future businesses. ",
         "tags": [
-            "Cloud",
-            "Android",
-            "Progressive Web Apps"
+            "Entrepreneur"
         ],
         "badges": [
 
@@ -269,6 +267,42 @@
                 "link": "https://www.linkedin.com/in/csabatothdev"
             }
         ]
-    }
+    },
+    "9": {
+    "id": 9,
+    "featured": true,
+    "name": "Csaba Toth",
+    "title": "Universal software engineer (can tackle any problem), Speaker, User Group junkie",
+    "company": "WestShore Technologies Inc., Csaba Technology Services, LLC",
+    "companyLogo": "/images/logos/gdgfresno.png",
+    "country": "",
+    "photoUrl": "/images/people/csaba.jpg",
+    "shortBio": "Full stack developer in Fresno and a user group junkie. He was C/C++ CAD software developer... ",
+    "bio": "Full stack developer in Fresno and a user group junkie. He was C/C++ CAD software developer in the past and actively worked and working with .NET, Java and Python technology stacks including JS/HTML5/CSS front end (besides many).",
+    "tags": [
+      "Cloud",
+      "Android",
+      "Progressive Web Apps"
+    ],
+    "badges": [
 
+    ],
+    "socials": [
+      {
+        "icon": "gplus",
+        "name": "Google+",
+        "link": "https://plus.google.com/+CsabaTothMr"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/tocsa2"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/csabatothdev"
+      }
+    ]
+  }
 }
