@@ -42,7 +42,15 @@ The instructions below are based on the [Firebase quick start][Firebase quick st
         firebase deploy
 
     The URL to your live site is listed in the output.
-    
+
+1.  Upload firebase data
+
+        firebase database:set /speakers data/speakers.json
+        firebase database:set /sessions data/sessions.json
+        firebase database:set /schedule data/schedule.json
+        firebase database:set /partners data/partners.json
+        firebase database:set /videos data/videos.json
+        firebase database:set /team data/team.json
 
 ### Continuous integration with Travis CI
 In the root folder you can find [.travis.yml](/.travis.yml) which configures
