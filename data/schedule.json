@@ -2,11 +2,17 @@
     "date": "2017-03-19",
     "dateReadable": "March 19",
     "tracks": [{
-        "title": ""
+        "title": "UX/UI",
+        "location": "GeekWise Rm 5"
     }, {
-        "title": ""
+        "title": "Tech Talks",
+        "location": "GeekWise Rm 1"
     }, {
-        "title": ""
+        "title": "Cloud Next",
+        "location": "GeekWise Rm 3"
+    }, {
+        "title": "Ideaworks",
+        "location": "GeekWise Rm 4"
     }],
     "timeslots": [{
         "startTime": "09:00",

@@ -183,9 +183,9 @@
           <div class="session-content" flex>
             <h2 class="session-title">[[session.title]]</h2>
             <ul class="session-meta">
-              <li hidden$="[[!session.language]]">[[session.language]]</li>
-              <li hidden$="[[!session.complexity]]">[[session.complexity]]</li>
               <li hidden$="[[!session.track.title]]">[[session.track.title]]</li>
+              <li hidden$="[[!session.track.location || session.colspan]]">[[session.track.location]]</li>
+              <li hidden$="[[!session.location || !session.colspan]]">[[session.location]]</li>
             </ul>
           </div>
 

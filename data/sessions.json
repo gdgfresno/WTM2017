@@ -2,21 +2,20 @@
   "140": {
     "id": 140,
     "title": "TBD",
-    "description": "TBD",
-    "language": "English"
+    "description": "TBD"
   },
   "139": {
     "id": 139,
     "title": "Keynote",
-    "description": "",
-    "language": "English"
+    "description": ""
   },
   "138": {
     "id": 138,
     "title": "Telling our Stories Panel",
     "description": "Panel Discussion",
-    "language": "BitWise South Staduim Auditorium",
-    "image": "/images/backgrounds/closing.jpg"
+    "image": "/images/backgrounds/closing.jpg",
+    "location": "BitWise South Staduim Lobby",
+    "colspan": true
   },
   "137": {
     "id": 137,
@@ -28,8 +27,9 @@
     "id": 136,
     "title": "Welcome",
     "description": "Official start of the conference. Greetings from the organizers, sponsors and partners.",
-    "language": "BitWise South Staduim Auditorium",
-    "image": "/images/backgrounds/opening.jpg"
+    "image": "/images/backgrounds/opening.jpg",
+    "location": "BitWise South Staduim Lobby",
+    "colspan": true
   },
   "135": {
     "id": 135,
@@ -42,7 +42,8 @@
     "title": "Coffee break",
     "description": "Coffeeeeeee!",
     "image": "/images/backgrounds/coffee-break.jpg",
-    "language": "BitWise South Staduim Lobby"
+    "location": "BitWise South Staduim Lobby",
+    "colspan": true
   },
   "133": {
     "id": 133,
@@ -55,7 +56,8 @@
     "title": "Registration & morning Coffee",
     "description": "Get your badge, coffee, enjoy talking with tech edicts around",
     "image": "/images/backgrounds/registration.jpg",
-    "language": "BitWise South Staduim Lobby"
+    "location": "BitWise South Staduim Lobby",
+    "colspan": true
   },
   "131": {
     "id": 131,
@@ -64,7 +66,6 @@
     "speakers": [
       27
     ],
-    "language": "English",
     "complexity": "Intermediate",
     "tags": [
       "Ideaworks"
@@ -78,7 +79,6 @@
     "speakers": [
       26
     ],
-    "language": "English",
     "complexity": "Intermediate",
     "tags": [
       "Ideaworks"
@@ -91,7 +91,6 @@
     "speakers": [
       26
     ],
-    "language": "English",
     "complexity": "Intermediate",
     "tags": [
       "Ideaworks"
@@ -105,7 +104,6 @@
     "speakers": [
       25
     ],
-    "language": "English",
     "complexity": "Beginner",
     "tags": [
       "Ideaworks"
@@ -118,7 +116,6 @@
     "speakers": [
       24
     ],
-    "language": "Ukrainian",
     "complexity": "Intermediate",
     "tags": [
       "Ideaworks"
@@ -132,7 +129,6 @@
     "speakers": [
       23
     ],
-    "language": "English",
     "complexity": "Intermediate",
     "tags": [
       "Ideaworks"
@@ -147,7 +143,6 @@
     "speakers": [
       22
     ],
-    "language": "English",
     "complexity": "Intermediate",
     "tags": [
       "Cloud Next"
@@ -160,7 +155,6 @@
     "speakers": [
       21
     ],
-    "language": "English",
     "complexity": "Intermediate",
     "tags": [
       "Ideaworks"
@@ -174,7 +168,6 @@
     "speakers": [
       20
     ],
-    "language": "English",
     "complexity": "Beginner",
     "tags": [
       "ui-ux"
@@ -187,7 +180,6 @@
     "speakers": [
       19
     ],
-    "language": "English",
     "complexity": "Intermediate",
     "tags": [
       "Ideaworks"
@@ -202,7 +194,6 @@
     "speakers": [
       18
     ],
-    "language": "English",
     "complexity": "Intermediate",
     "tags": [
       "ui-ux"
@@ -215,7 +206,6 @@
     "speakers": [
       18
     ],
-    "language": "English",
     "complexity": "Beginner",
     "tags": [
       "ui-ux"
@@ -229,7 +219,6 @@
     "speakers": [
       17
     ],
-    "language": "English",
     "complexity": "Beginner",
     "tags": [
       "Ideaworks"
@@ -243,7 +232,6 @@
     "speakers": [
       16
     ],
-    "language": "English",
     "complexity": "Intermediate",
     "tags": [
       "Ideaworks"
@@ -257,7 +245,6 @@
     "speakers": [
       15
     ],
-    "language": "English",
     "complexity": "Beginner",
     "tags": [
       "Cloud Next"
@@ -271,7 +258,6 @@
     "speakers": [
       14
     ],
-    "language": "English",
     "complexity": "Beginner",
     "tags": [
       "ui-ux"
@@ -285,7 +271,6 @@
     "speakers": [
       13
     ],
-    "language": "English",
     "complexity": "Beginner",
     "tags": [
       "Ideaworks"
@@ -300,7 +285,6 @@
     "speakers": [
       12
     ],
-    "language": "English",
     "complexity": "Intermediate",
     "tags": [
       "Ideaworks"
@@ -313,7 +297,6 @@
     "speakers": [
       11
     ],
-    "language": "English",
     "complexity": "Intermediate",
     "tags": [
       "Cloud Next"
@@ -327,7 +310,6 @@
     "speakers": [
       10
     ],
-    "language": "English",
     "complexity": "Intermediate",
     "tags": [
       "ui-ux"
@@ -340,7 +322,6 @@
     "speakers": [
       9
     ],
-    "language": "English",
     "complexity": "Intermediate",
     "tags": [
       "Tech Talks"
@@ -354,7 +335,6 @@
     "speakers": [
       8
     ],
-    "language": "English",
     "complexity": "Beginner",
     "tags": [
       "Tech Talks"
@@ -368,7 +348,6 @@
     "speakers": [
       7
     ],
-    "language": "English",
     "complexity": "Beginner",
     "tags": [
       "Tech Talks"
@@ -382,7 +361,6 @@
     "speakers": [
       5
     ],
-    "language": "English",
     "complexity": "Beginner",
     "tags": [
       "UX UI"
@@ -395,7 +373,6 @@
     "speakers": [
       3
     ],
-    "language": "English",
     "complexity": "Beginner",
     "tags": [
       "UX UI"
@@ -408,7 +385,6 @@
     "speakers": [
       4
     ],
-    "language": "GeekWise Rm 5",
     "complexity": "beginner",
     "tags": [
       "UX UI"
@@ -421,7 +397,6 @@
     "speakers": [
 
     ],
-    "language": "GeekWise Rm 4",
     "complexity": "Intermediate",
     "tags": [
       "Ideaworks"
@@ -436,7 +411,6 @@
     "speakers": [
 
     ],
-    "language": "GeekWise Rm 3",
     "complexity": "Beginner",
     "tags": [
       "Cloud Next"
@@ -451,7 +425,6 @@
     "speakers": [
 
     ],
-    "language": "GeekWise Rm 2",
     "complexity": "Beginner",
     "tags": [
       "UX UI"
@@ -465,7 +438,6 @@
     "speakers": [
 
     ],
-    "language": "GeekWise Rm 1",
     "complexity": "Beginner",
     "tags": [
       "Tech Talks"
@@ -478,7 +450,6 @@
     "speakers": [
       1
     ],
-    "language": "English",
     "complexity": "",
     "tags": [
       "Cloud Next"
