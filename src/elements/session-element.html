@@ -69,8 +69,8 @@
         display: inline-block;
       }
 
-      .session-meta li:not(:last-of-type)::after {
-        margin-left: 5px;
+      .session-meta li:not(:first-of-type)::before {
+        margin-right: 5px;
         content: "/";
       }
 
@@ -184,8 +184,8 @@
             <h2 class="session-title">[[session.title]]</h2>
             <ul class="session-meta">
               <li hidden$="[[!session.track.title]]">[[session.track.title]]</li>
-              <li hidden$="[[!session.track.location || session.colspan]]">[[session.track.location]]</li>
-              <li hidden$="[[!session.location || !session.colspan]]">[[session.location]]</li>
+              <li hidden$="[[session.colspan]]">[[session.track.location]]</li>
+              <li hidden$="[[!session.colspan]]">[[session.location]]</li>
             </ul>
           </div>
 
@@ -232,7 +232,7 @@
                 <iron-icon icon="account"></iron-icon>
                 <div class="person-detail" flex>
                   <span class="speaker-name">[[speaker.name]]</span>
-                  <div class="speaker-title">[[speaker.company]] / [[speaker.country]]</div>
+                  <div class="speaker-title">[[speaker.company]]</div>
                 </div>
               </div>
             </template>
