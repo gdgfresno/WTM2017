@@ -69,7 +69,7 @@
         display: inline-block;
       }
 
-      .session-meta li:not(:first-of-type)::before {
+      .session-meta li.with-separator:not(:first-of-type)::before {
         margin-right: 5px;
         content: "/";
       }
@@ -183,8 +183,8 @@
           <div class="session-content" flex>
             <h2 class="session-title">[[session.title]]</h2>
             <ul class="session-meta">
-              <li hidden$="[[!session.track.title]]">[[session.track.title]]</li>
-              <li hidden$="[[session.colspan]]">[[session.track.location]]</li>
+              <li hidden$="[[session.colspan]]" class="with-separator">[[session.track.title]]</li>
+              <li hidden$="[[session.colspan]]" class="with-separator">[[session.track.location]]</li>
               <li hidden$="[[!session.colspan]]">[[session.location]]</li>
             </ul>
           </div>
