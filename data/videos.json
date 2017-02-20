@@ -1,6 +1,6 @@
 [
   {
-    "youtubeId": "PrXarTh77EA",
+    "youtubeId": "KUzkig1NIMs",
     "title": "Recap of WTM IWD 2016",
     "speakers": "WTM Fresno",
     "thumbnail": "/images/sessions/101.jpg"
@@ -10,7 +10,18 @@
     "title": "Recap of WTM IWD 2015",
     "speakers": "WTM Fresno",
     "thumbnail": "/images/sessions/102.jpg"
+  },
+  {
+    "youtubeId": "H6YDUjeM5HI",
+    "title": "Women Techmakers Europe Summit 2016",
+    "speakers": "Goolge Developers",
+    "thumbnail": "/images/sessions/103.jpg"
+  },
+  {
+    "youtubeId": "PrXarTh77EA",
+    "title": "Women Techmakers: Make your passion.",
+    "speakers": "Goolge",
+    "thumbnail": "/images/sessions/104.jpg"
   }
-
 
 ]

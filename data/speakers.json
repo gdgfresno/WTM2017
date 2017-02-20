@@ -304,5 +304,41 @@
         "link": "https://www.linkedin.com/in/csabatothdev"
       }
     ]
+  },
+  "10": {
+    "id": 10,
+    "featured": true,
+    "name": "Ideaworks Team",
+    "title": "How about we list each person in the bio area?",
+    "company": "Ideaworks",
+    "companyLogo": "/images/logos/ideaworks.png",
+    "country": "",
+    "photoUrl": "/images/people/neepic.png",
+    "shortBio": "Amazing People DOING Amazing THINGS! ",
+    "bio": "Full stack developer in Fresno and a user group junkie. He was C/C++ CAD software developer in the past and actively worked and working with .NET, Java and Python technology stacks including JS/HTML5/CSS front end (besides many).",
+    "tags": [
+      "Markerspace",
+      "Hands-on",
+      "Progressive Web Apps"
+    ],
+    "badges": [
+    ],
+    "socials": [
+      {
+        "icon": "gplus",
+        "name": "Google+",
+        "link": "https://plus.google.com/+CsabaTothMr"
+      },
+      {
+        "icon": "twitter",
+        "name": "Twitter",
+        "link": "https://twitter.com/tocsa2"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/csabatothdev"
+      }
+    ]
   }
-}
+  }

@@ -3,17 +3,20 @@
     "dateReadable": "March 19",
     "tracks": [{
         "title": "UX/UI",
-        "location": "GeekWise Rm 5"
-    }, {
-        "title": "Tech Talks",
         "location": "GeekWise Rm 1"
     }, {
-        "title": "Cloud Next",
+        "title": "Tech Talks",
+        "location": "GeekWise Rm 2"
+    }, {
+        "title": "Tech Talks",
         "location": "GeekWise Rm 3"
     }, {
-        "title": "Ideaworks",
+        "title": "Cloud Next",
         "location": "GeekWise Rm 4"
-    }],
+    }, {
+        "title": "Ideaworks",
+        "location": "GeekWise Rm 5"
+      }],
     "timeslots": [{
         "startTime": "09:00",
         "endTime": "10:00",
@@ -38,7 +41,8 @@
         "sessions": [
             [106],
             [109],
-            [104],
+            [102],
+            [114],
             [105]
         ]
     }, {
@@ -53,7 +57,8 @@
         "sessions": [
             [107],
             [110],
-            [104],
+            [102],
+            [114],
             [105]
         ]
     }, {
@@ -61,8 +66,9 @@
         "endTime": "15:20",
         "sessions": [
           [108],
+          [111],
           [102],
-          [104],
+          [114],
           [105]
         ]
     },

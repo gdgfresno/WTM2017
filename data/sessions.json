@@ -14,14 +14,16 @@
     "title": "Telling our Stories Panel",
     "description": "Panel Discussion",
     "image": "/images/backgrounds/closing.jpg",
-    "location": "BitWise South Staduim Lobby",
+    "location": "BitWise South Staduim Auditorium",
     "colspan": true
   },
   "137": {
     "id": 137,
     "title": "Closing",
     "description": "Afterparty is a great time to have some fun and meet new people",
-    "image": "/images/backgrounds/party.jpg"
+    "image": "/images/backgrounds/party.jpg",
+    "location": "BitWise South Staduim Auditorium",
+    "colspan": true
   },
   "136": {
     "id": 136,
@@ -280,14 +282,14 @@
   },
   "114": {
     "id": 114,
-    "title": "I\u2019ve been doing some syncing\u2026",
-    "description": "Storing account information is a common challenge many app developers face, and is often tackled in tailored solutions. Isn't there some strategy to store account credentials in a centralized place?\n\nWhat about considerations for multiple accounts? Security concerns? And when should or could I synchronize data?\n\nAndroid offers a powerful\u2014and underrated\u2014account manager. Let's explore the possibilities together and lay out an architecture for engineering an Android app based on accounts.",
+    "title": "Cloud Next Content",
+    "description": "Material from Next Cloud Event in San Francisco",
     "speakers": [
-      12
+      9
     ],
-    "complexity": "Intermediate",
+    "complexity": "Beginner",
     "tags": [
-      "Ideaworks"
+      "Cloud Next"
     ]
   },
   "113": {
@@ -305,35 +307,35 @@
   },
   "112": {
     "id": 112,
-    "title": "Building web apps in 2016",
-    "description": "Last year brought a lot of new capabilities to browsers, fundamentally changing the way we will build web apps in 2016. 60FPS, push messages, offline support and background sync became a reality marking the birth of Progressive Web Apps.",
+    "title": "You're Never Too Young To Code!",
+    "description": "The jobs our children will have in the future probably don't exist yet.  But they don't have to wait until then to start building the skills they will need.  Coding opportunities allow for true 21st century experiences even for the youngest of children.  My young daughters and I welcome you to join us as we present activities, books, apps, devices, and online resources that can help you open your child to the world of coding!",
     "speakers": [
-      10
+      2
     ],
-    "complexity": "Intermediate",
+    "complexity": "Beginner",
     "tags": [
-      "ui-ux"
+      "Tech Talks"
     ]
   },
   "111": {
     "id": 111,
-    "title": " Why Do They Come – Why Do They Stay?",
-    "description": "Career Motivations Among Technical Undergraduate Students - n this presentation I will discuss an empirical study examining the reasons why undergraduate female students select and remain computer science majors at Carnegie Mellon University. At the end we will explore together ways to increase the diversity and inclusivity of people entering the technology sector.",
+    "title": "Improving Communication with Special Needs Children Through Tech",
+    "description": "Technology was my window into my son Wyatt's world. As many may remember from last year's talk, my son Wyatt has autism and has overcome a myriad of challenges in the past 8 years. He was fascinated by my iPod & liked interacting with a device. At the time he was completely nonverbal - so this quickly blossomed into spontaneous communication that was previously impossible. He was reading before talking & digital created a means for him to share his thoughts & needs. I'd like to talk about the benefit & use of tech for bridging communication gaps with special needs children - and the need for future innovation in tech to continue improved supports. I will provide example apps that deliver benefit, talk about specific \"light bulb\" moments along our journey, and discuss ways to create your own solutions when you really need a custom-fit.",
     "speakers": [
-      9
+      6
     ],
-    "complexity": "Intermediate",
+    "complexity": "Beginner",
     "tags": [
       "Tech Talks"
     ],
-    "presentation":"https://www.dropbox.com/s/hffqwk6gfyhfhld/WhyDoTheyCome_WhyDoTheyStay.pdf?dl=0"
+    "presentation":""
   },
   "110": {
     "id": 110,
-    "title": "The Upside Down Approach To Launching an App",
-    "description": "This session will discuss how to launch and market a mobile application utilizing  little budget, little time and random/ out of the box methods to approach the intended demographic",
+    "title": "The \"Beauty\" of Fashion infused with the \"Magic\" of...",
+    "description": "If you are interested in the intersection between biochemistry, tech and fashion you should come to this fast paced talk about the past, present and future of wearable tech.",
     "speakers": [
-      8
+      7
     ],
     "complexity": "Beginner",
     "tags": [
@@ -395,7 +397,7 @@
     "title": "MakerSpace",
     "description": "TBD",
     "speakers": [
-
+      10
     ],
     "complexity": "Intermediate",
     "tags": [
