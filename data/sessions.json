@@ -11,10 +11,10 @@
   },
   "138": {
     "id": 138,
-    "title": "Telling our Stories Panel",
+    "title": "Keynote Panel",
     "description": "Panel Discussion",
     "image": "/images/backgrounds/closing.jpg",
-    "location": "BitWise South Staduim Auditorium",
+    "location": "Auditorium",
     "colspan": true
   },
   "137": {
@@ -22,7 +22,7 @@
     "title": "Closing",
     "description": "Afterparty is a great time to have some fun and meet new people",
     "image": "/images/backgrounds/party.jpg",
-    "location": "BitWise South Staduim Auditorium",
+    "location": "Auditorium",
     "colspan": true
   },
   "136": {
@@ -30,7 +30,7 @@
     "title": "Welcome",
     "description": "Official start of the conference. Greetings from the organizers, sponsors and partners.",
     "image": "/images/backgrounds/opening.jpg",
-    "location": "BitWise South Staduim Lobby",
+    "location": "Lobby",
     "colspan": true
   },
   "135": {
@@ -55,10 +55,10 @@
   },
   "132": {
     "id": 132,
-    "title": "Registration & morning Coffee",
+    "title": "Registration & Breakfast",
     "description": "Get your badge, coffee, enjoy talking with tech edicts around",
     "image": "/images/backgrounds/registration.jpg",
-    "location": "BitWise South Staduim Lobby",
+    "location": "Lobby",
     "colspan": true
   },
   "131": {
@@ -70,7 +70,7 @@
     ],
     "complexity": "Intermediate",
     "tags": [
-      "Ideaworks"
+      "Makerspace"
     ],
     "presentation": "https://speakerdeck.com/gdglviv/roman-herasymenko-deal-with-it-android-databinding-explained"
   },
@@ -83,7 +83,7 @@
     ],
     "complexity": "Intermediate",
     "tags": [
-      "Ideaworks"
+      "Makerspace"
     ]
   },
   "129": {
@@ -95,7 +95,7 @@
     ],
     "complexity": "Intermediate",
     "tags": [
-      "Ideaworks"
+      "Makerspace"
     ],
     "presentation":"https://speakerdeck.com/gdglviv/resul-caner-yildirim-accessibility-on-android"
   },
@@ -108,7 +108,7 @@
     ],
     "complexity": "Beginner",
     "tags": [
-      "Ideaworks"
+      "Makerspace"
     ]
   },
   "127": {
@@ -120,7 +120,7 @@
     ],
     "complexity": "Intermediate",
     "tags": [
-      "Ideaworks"
+      "Makerspace"
     ],
     "presentation":"https://speakerdeck.com/gdglviv/anton-minashkin-exoplayer-media-playback-without-pain-almost-dot-dot-dot"
   },
@@ -133,7 +133,7 @@
     ],
     "complexity": "Intermediate",
     "tags": [
-      "Ideaworks"
+      "Makerspace"
     ],
     "presentation":"https://speakerdeck.com/gdglviv/michael-pustovit-android-hacking-for-dummies-if-operator-demolytion",
     "videoId": "We04nyIIsA0"
@@ -159,7 +159,7 @@
     ],
     "complexity": "Intermediate",
     "tags": [
-      "Ideaworks"
+      "Makerspace"
     ],
     "videoId": "MmGDQkgknfY"
   },
@@ -184,7 +184,7 @@
     ],
     "complexity": "Intermediate",
     "tags": [
-      "Ideaworks"
+      "Makerspace"
     ],
     "presentation":"https://speakerdeck.com/gdglviv/david-vavra-firebase-plus-kotlin-plus-rxjava-plus-mvp-practical-tips",
     "videoId": "b9NgjqM6dvk"
@@ -223,7 +223,7 @@
     ],
     "complexity": "Beginner",
     "tags": [
-      "Ideaworks"
+      "Makerspace"
     ],
     "presentation":"https://speakerdeck.com/gdglviv/jana-moudra-hands-on-with-ui-testing-for-android-developers"
   },
@@ -236,7 +236,7 @@
     ],
     "complexity": "Intermediate",
     "tags": [
-      "Ideaworks"
+      "Makerspace"
     ],
     "presentation":"https://speakerdeck.com/gdglviv/dmytro-danylyk-kotlin-plus-android"
   },
@@ -268,22 +268,22 @@
   },
   "115": {
     "id": 115,
-    "title": "Android tool-chain and run-time improvements in N",
-    "description": "Upcoming Android N release will bring some interesting changes to both Android run-time and toolchain. Let's talk about JIT, AOT, hybrid JIT/AOT, Jack, Jill and other acronyms and codenames ;-) In this presentation we'll see how many awesome tricks are needed to make our apps start fast and run smoothly on modern Android devices. Hopefully we'll also answer the most important question -- what's next for Android after Java.",
+    "title": "Priming the Pipeline: Supporting Young Female Coders",
+    "description": "What challenges do girls and young women face that leads to their underrepresentation in technology? What is being done now to increase female participation while school districts and the State of California move slowly to address the lack of Computer Science curriculum in public schools? What has been the response of students to after-school coding clubs at Fresno Unified? Is the model gaining momentum and is it scalable? What does the future hold for CoderGirlz? Saori will address these questions and more as she shares her experiences starting and growing coding clubs for girls.",
     "speakers": [
-      13
+      1
     ],
     "complexity": "Beginner",
     "tags": [
-      "Ideaworks"
+      "Tech Talks"
     ],
     "presentation":"https://speakerdeck.com/gdglviv/aleksander-piotrowski-android-tool-chain-and-run-time-improvements-in-n",
     "videoId": "WqULb6bdwwg"
   },
   "114": {
     "id": 114,
-    "title": "Cloud Next Content",
-    "description": "Material from Next Cloud Event in San Francisco",
+    "title": "Cloud Next ",
+    "description": "TBD",
     "speakers": [
       9
     ],
@@ -294,14 +294,14 @@
   },
   "113": {
     "id": 113,
-    "title": "Microservices in Google App Engine",
-    "description": "Microservices is coming with a certain workload and constraints. Let's try to see how Google Cloud Platform and App Engine can help the overall microservices implementation.",
+    "title": "The Entrepreneur's Battle Plan",
+    "description": "While we all hope to have an enjoyable journey as entrepreneurs and professionals, the fact is, when you are decide to start your own business, you have also decided to embark on one of the toughest journeys of your life!  Being properly prepared for what you will face along the way is critical for your ultimate success.  From vision, to plan, to courage, and self-care, the way of the business owner is much like being in battle.  This talk will help you understand the key areas to strengthen in order for you to successfully \"take your mountain.\" ",
     "speakers": [
       11
     ],
-    "complexity": "Intermediate",
+    "complexity": "Beginner",
     "tags": [
-      "Cloud Next"
+      "Tech Talk"
     ],
     "presentation":"https://speakerdeck.com/gdglviv/jean-baptiste-clion-microservices-in-google-app-engine"
   },
@@ -365,7 +365,7 @@
     ],
     "complexity": "Beginner",
     "tags": [
-      "UX UI"
+      "UI/UX Design"
     ]
   },
   "107": {
@@ -377,7 +377,7 @@
     ],
     "complexity": "Beginner",
     "tags": [
-      "UX UI"
+      "UI/UX Design"
     ]
   },
   "106": {
@@ -389,7 +389,7 @@
     ],
     "complexity": "beginner",
     "tags": [
-      "UX UI"
+      "UI/UX Design"
     ]
   },
   "105": {
@@ -401,7 +401,7 @@
     ],
     "complexity": "Intermediate",
     "tags": [
-      "Ideaworks"
+      "Makerspace"
     ],
     "presentation":"",
     "videoId": ""
@@ -429,7 +429,7 @@
     ],
     "complexity": "Beginner",
     "tags": [
-      "UX UI"
+      "UI/UX Design"
     ],
     "presentation":""
   },

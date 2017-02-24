@@ -340,5 +340,39 @@
         "link": "https://www.linkedin.com/in/csabatothdev"
       }
     ]
-  }
+  },
+  "11": {
+    "id": 11,
+    "featured": true,
+    "name": "Alison Haugan",
+    "title": "President/Co-founder; Strategic Business Advisor; Speaker",
+    "company": "OptiStreams, Inc.",
+    "companyLogo": "",
+    "country": "",
+    "photoUrl": "/images/people/ahaugan.jpg",
+    "shortBio": "Alison Haugan is a pioneering entrepreneur, strategic business coach, and speaker....",
+    "bio": "Alison Haugan is a pioneering entrepreneur, strategic business coach, and speaker. She has spent the last 19 years as Co-Founder and President of a nationwide, satellite-based communications provider, OptiStreams, Inc., which was ranked #140 on Inc. Magazine’s Inc. 500 fastest growing privately held companies in America list for 2004, and continues to serve unique connectivity needs in rural areas.She coaches and works with entrepreneurs (and wanna-be entrepreneurs) and   professionals who are ready to “up their game” to take their business/career to the next level, increase financial stability and reserves, reduce stress, and leverage their personal power for stronger credibility, career advancement, and vision achievement.She also works with business owners and organizations to help them achieve more respectful, responsible and profitable work environments through her unique message of civility and virtues in business Contact her for more information and availability.",
+    "tags": [
+      "Entrepreneur"
+    ],
+    "badges": [
+    ],
+    "socials": [
+      {
+        "icon": "facebook",
+        "name": "Facebook",
+        "link": "https://www.facebook.com/alison.haugan"
+      },
+      {
+        "icon": "website",
+        "name": "Website",
+        "link": "http://www.alisonhaugan.com"
+      },
+      {
+        "icon": "linkedin",
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/alisonhaugan"
+      }
+    ]
+   }
   }

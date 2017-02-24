@@ -2,7 +2,7 @@
     "date": "2017-03-19",
     "dateReadable": "March 19",
     "tracks": [{
-        "title": "UX/UI",
+        "title": "UI/UX Design",
         "location": "GeekWise Rm 1"
     }, {
         "title": "Tech Talks",
@@ -14,7 +14,7 @@
         "title": "Cloud Next",
         "location": "GeekWise Rm 4"
     }, {
-        "title": "Ideaworks",
+        "title": "Makerspace",
         "location": "GeekWise Rm 5"
       }],
     "timeslots": [{
@@ -41,7 +41,7 @@
         "sessions": [
             [106],
             [109],
-            [102],
+            [112],
             [114],
             [105]
         ]
@@ -57,7 +57,7 @@
         "sessions": [
             [107],
             [110],
-            [102],
+            [112],
             [114],
             [105]
         ]
@@ -67,7 +67,7 @@
         "sessions": [
           [108],
           [111],
-          [102],
+          [115],
           [114],
           [105]
         ]
