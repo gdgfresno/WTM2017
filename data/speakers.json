@@ -237,9 +237,9 @@
         "id": 8,
         "featured": true,
         "name": "Kelly Lamb",
-        "title": "CEO of Tech Company- Helpfulist",
+        "title": "CEO of Tech Company - Helpfulist",
         "company": "Helpfulist",
-        "companyLogo": "/images/logos/gdgfresno.png",
+        "companyLogo": "",
         "country": "",
         "photoUrl": "/images/people/needpic.png",
         "shortBio": "Kelly Lamb is the Founder and CEO of Helpfulist. She began her passion... ",
@@ -313,13 +313,11 @@
     "company": "Ideaworks",
     "companyLogo": "/images/logos/ideaworks.png",
     "country": "",
-    "photoUrl": "/images/people/neepic.png",
-    "shortBio": "Amazing People DOING Amazing THINGS! ",
-    "bio": "Full stack developer in Fresno and a user group junkie. He was C/C++ CAD software developer in the past and actively worked and working with .NET, Java and Python technology stacks including JS/HTML5/CSS front end (besides many).",
+    "photoUrl": "/images/people/makerspace.jpg",
+    "shortBio": "Ideaworks is a nonprofit oganization that provides a makerspace to the Central Valley",
+    "bio": "Ideaworks is a nonprofit oganization that provides a makerspace to the Central Valley. They are dedicated to providing thecommunity with resources to develop new skills throughhands-on teaching methods,collaboration, and entrepreneurish",
     "tags": [
-      "Markerspace",
-      "Hands-on",
-      "Progressive Web Apps"
+      "Markerspace"
     ],
     "badges": [
     ],

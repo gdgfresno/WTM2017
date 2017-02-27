@@ -49,9 +49,11 @@
   },
   "133": {
     "id": 133,
-    "title": "Lunch",
+    "title": "Lunch & Tabling Session",
     "description": "Foooooooood!",
-    "image": "/images/backgrounds/lunch.jpg"
+    "image": "/images/backgrounds/lunch.jpg",
+    "location": "Parking Lot",
+    "colspan": true
   },
   "132": {
     "id": 132,
@@ -294,14 +296,14 @@
   },
   "113": {
     "id": 113,
-    "title": "The Entrepreneur's Battle Plan",
+    "title": "The Entrepreneur's Battle Plan:  5 Tips for Taking Your Mountain",
     "description": "While we all hope to have an enjoyable journey as entrepreneurs and professionals, the fact is, when you are decide to start your own business, you have also decided to embark on one of the toughest journeys of your life!  Being properly prepared for what you will face along the way is critical for your ultimate success.  From vision, to plan, to courage, and self-care, the way of the business owner is much like being in battle.  This talk will help you understand the key areas to strengthen in order for you to successfully \"take your mountain.\" ",
     "speakers": [
       11
     ],
     "complexity": "Beginner",
     "tags": [
-      "Tech Talk"
+      "Tech Talks"
     ],
     "presentation":"https://speakerdeck.com/gdglviv/jean-baptiste-clion-microservices-in-google-app-engine"
   },
@@ -332,10 +334,10 @@
   },
   "110": {
     "id": 110,
-    "title": "The \"Beauty\" of Fashion infused with the \"Magic\" of...",
-    "description": "If you are interested in the intersection between biochemistry, tech and fashion you should come to this fast paced talk about the past, present and future of wearable tech.",
+    "title": "The Upside Down Approach To Launching an App",
+    "description": "This session will discuss how to launch and market a mobile application utilizing  little budget, little time and random/ out of the box methods to approach the intended demographic.",
     "speakers": [
-      7
+      8
     ],
     "complexity": "Beginner",
     "tags": [
@@ -358,7 +360,7 @@
   },
   "108": {
     "id": 108,
-    "title": "Creative Code: Programming on the Right Side",
+    "title": "Creative Code: Programming on the Right Side of the Brain",
     "description": "The current mantra seems to be \"Everyone Can Learn to Code\" and yet most of the languages and environments we teach were created for, and by, tech-minded people. What about the rest of us? Well, there is another way. In fact, there is a whole world of artists and designers who program. Join Fresno State Professor Rusty Robison and see what \"right-brained\" people have created and the tools that have helped them become creative coders.",
     "speakers": [
       5
