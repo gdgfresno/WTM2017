@@ -32,6 +32,7 @@
   "tweetsSource": "/data/tweets.json",
   "partnershipProposition": "http://bit.ly/df16-sponsor",
   "videosSessionsUrl": "//www.youtube.com/watch?v=p_o_JWXTVtg",
+  "enableSessionsRating": true,
   "navigation": [
     {
       "route": "home",

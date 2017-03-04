@@ -146,6 +146,10 @@
       }
     ]
   },
+  "tickets": {
+    "url": "https://www.eventbrite.com/e/2017-international-womens-day-celebration-tickets-31529027169",
+    "elements": []
+  },
   "teamPageTitle": "Team",
   "teamPageText": "Meet the amazing people who made this event happen:",
   "statistics": [
