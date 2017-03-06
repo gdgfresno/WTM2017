@@ -30,6 +30,11 @@
         "name": "59 Days of Code",
         "url": "http://59daysofcode.com/",
         "logoUrl": "../images/logos/59DOC.png"
+      },
+      {
+        "name": "GitHub",
+        "url": "http://github.com/",
+        "logoUrl": "../images/logos/github.jpg"
       }
     ]
   }
