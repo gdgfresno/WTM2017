@@ -244,12 +244,12 @@
         "socials": [
           {
             "icon": "facebook",
-            "link": "https://www.facebook.com/idvoretskyi",
+            "link": "https://www.facebook.com/",
             "name": "Facebook"
           },
           {
             "icon": "twitter",
-            "link": "https://twitter.com/idvoretskyi",
+            "link": "https://twitter.com/",
             "name": "Twitter"
           }
         ],
@@ -261,16 +261,38 @@
         "socials": [
           {
             "icon": "facebook",
-            "link": "https://www.facebook.com/joshwin.greene",
+            "link": "https://www.facebook.com/",
             "name": "Facebook"
           },
           {
             "icon": "twitter",
-            "link": "https://twitter.com/idvoretskyi",
+            "link": "https://twitter.com/",
             "name": "Twitter"
           }
         ],
         "title": "Photographer"
+      },
+      {
+        "name": "Csaba Toth",
+        "photoUrl": "/images/people/csaba.jpg",
+        "socials": [
+          {
+              "icon": "gplus",
+              "name": "Google+",
+              "link": "https://plus.google.com/+CsabaTothMr"
+          },
+          {
+              "icon": "twitter",
+              "name": "Twitter",
+              "link": "https://twitter.com/tocsa2"
+          },
+          {
+              "icon": "linkedin",
+              "name": "LinkedIn",
+              "link": "https://www.linkedin.com/in/csabatothdev"
+          }
+        ],
+        "title": "Website Consultant"
       }
     ]
   }
