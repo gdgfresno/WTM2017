@@ -160,14 +160,15 @@
             </div>
           </paper-menu-button>
 
-
-          <a href$="[[session.presentation]]" hidden$="[[!session.presentation]]" target="_blank"
-             rel="noopener noreferrer">
-            <paper-button class="action">
-              <iron-icon icon="presentation"></iron-icon>
-              {$ viewPresentation $}
-            </paper-button>
-          </a>
+          <template is="dom-repeat" items="[[session.resources]]" as="resource">
+            <a href$="[[resource.href]]" target="_blank" rel="noopener noreferrer">
+              <paper-button class="action">
+                <iron-icon icon="[[resource.type]]"></iron-icon>
+                [[resource.title]]
+              </paper-button>
+            </a>
+          </template>
+          
 
           <div on-tap="_openVideo" hidden$="[[!session.videoId]]">
             <paper-button class="action">
