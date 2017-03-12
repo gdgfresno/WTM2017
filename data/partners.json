@@ -33,8 +33,18 @@
       },
       {
         "name": "GitHub",
-        "url": "http://github.com/",
+        "url": "http://github.com",
         "logoUrl": "../images/logos/github.jpg"
+      },
+      {
+        "name": "Frenso City College",
+        "url": "http://fresnocitycollege.edu",
+        "logoUrl": "../images/logos/fcc.png"
+      },
+      {
+        "name": "Red Bull",
+        "url": "https://www.redbull.com",
+        "logoUrl": "../images/logos/redbull.png"
       }
     ]
   }
