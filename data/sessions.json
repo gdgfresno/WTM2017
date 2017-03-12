@@ -49,25 +49,35 @@
     "complexity": "Beginner",
     "tags": [
       "Tech Talks"
-    ],
-    "presentation":"https://speakerdeck.com/gdglviv/aleksander-piotrowski-android-tool-chain-and-run-time-improvements-in-n",
-    "videoId": "WqULb6bdwwg"
+    ]
   },
   "114": {
     "id": 114,
-    "title": "Cloud Next ",
-    "description": "TBD",
+    "title": "Cloud Next",
+    "description": "First we take a look at what Google Cloud has to offer and relate its services to other major cloud providers' features. We'll watch and discuss interesting sessions of the recent Google Cloud Next Conference. Everyone wth a laptop (BYOD) can participate in code labs (see resource links below). Participants of codelab who excel will receive various prizes.",
     "speakers": [
       9
     ],
     "complexity": "Beginner",
     "tags": [
       "Cloud Next"
+    ],
+    "resources": [
+        {
+            "type": "link",
+            "title": "Cloud Next Code Labs",
+            "href": "https://codelabs.developers.google.com/gcp-next"
+        },
+        {
+            "type": "link",
+            "title": "QwikLabs GCP Quest",
+            "href": "https://google.qwiklabs.com/quests/23?locale=en"
+        }
     ]
   },
   "113": {
     "id": 113,
-    "title": "The Entrepreneur's Battle Plan:  5 Tips for Taking Your Mountain",
+    "title": "The Entrepreneur's Battle Plan: 5 Tips for Taking Your Mountain",
     "description": "While we all hope to have an enjoyable journey as entrepreneurs and professionals, the fact is, when you are decide to start your own business, you have also decided to embark on one of the toughest journeys of your life!  Being properly prepared for what you will face along the way is critical for your ultimate success.  From vision, to plan, to courage, and self-care, the way of the business owner is much like being in battle.  This talk will help you understand the key areas to strengthen in order for you to successfully \"take your mountain.\" ",
     "speakers": [
       11
@@ -75,8 +85,7 @@
     "complexity": "Beginner",
     "tags": [
       "Tech Talks"
-    ],
-    "presentation":"https://speakerdeck.com/gdglviv/jean-baptiste-clion-microservices-in-google-app-engine"
+    ]
   },
   "112": {
     "id": 112,
@@ -100,8 +109,7 @@
     "complexity": "Beginner",
     "tags": [
       "Tech Talks"
-    ],
-    "presentation":""
+    ]
   },
   "110": {
     "id": 110,
@@ -113,8 +121,7 @@
     "complexity": "Beginner",
     "tags": [
       "Tech Talks"
-    ],
-    "presentation":""
+    ]
   },
   "109": {
     "id": 109,
@@ -127,7 +134,13 @@
     "tags": [
       "Tech Talks"
     ],
-    "presentation":""
+    "resources": [
+        {
+            "type": "presentation",
+            "title": "slide deck linked",
+            "href": "https://goo.gl/4UHlNY"
+        }
+    ]
   },
   "108": {
     "id": 108,
@@ -175,9 +188,31 @@
     "complexity": "Intermediate",
     "tags": [
       "Makerspace"
+    ]
+  },
+  "104": {
+    "id": 104,
+    "title": "Cloud Next",
+    "description": "We'll watch and discuss interesting sessions of the recent Google Cloud Next Conference. Everyone wth a laptop (BYOD) can participate in code labs (see resource links below). Participants of codelab who excel will receive various prizes.",
+    "speakers": [
+      9
     ],
-    "presentation":"",
-    "videoId": ""
+    "complexity": "Intermediate",
+    "tags": [
+      "Cloud Next"
+    ],
+    "resources": [
+        {
+            "type": "link",
+            "title": "Cloud Next Code Labs",
+            "href": "https://codelabs.developers.google.com/gcp-next"
+        },
+        {
+            "type": "link",
+            "title": "QwikLabs GCP Quest",
+            "href": "https://google.qwiklabs.com/quests/23?locale=en"
+        }
+    ]
   }
 
 }
