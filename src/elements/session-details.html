@@ -88,59 +88,17 @@
     </style>
 
     <firebase-document
-      id="speakerRatings"
+      id="ratings"
       app-name="{$ firebase.name $}"
-      path="{$ firebase.speakerRatingsPath $}/[[app.user.uid]]"
+      path="{$ firebase.ratingsPath $}/[[app.user.uid]]"
       data="{{persistedData}}">
     </firebase-document>
 
     <app-indexeddb-mirror
       session="{$ firebase.indexedDbSession $}"
-      key="speakerRatings"
+      key="ratings"
       data="{{persistedData}}"
-      persisted-data="{{app.user.speakerRatings}}">
-    </app-indexeddb-mirror>
-
-    <firebase-document
-      id="contentRatings"
-      app-name="{$ firebase.name $}"
-      path="{$ firebase.contentRatingsPath $}/[[app.user.uid]]"
-      data="{{persistedData}}">
-    </firebase-document>
-
-    <app-indexeddb-mirror
-      session="{$ firebase.indexedDbSession $}"
-      key="contentRatings"
-      data="{{persistedData}}"
-      persisted-data="{{app.user.contentRatings}}">
-    </app-indexeddb-mirror>
-
-    <firebase-document
-      id="venueRatings"
-      app-name="{$ firebase.name $}"
-      path="{$ firebase.venueRatingsPath $}/[[app.user.uid]]"
-      data="{{persistedData}}">
-    </firebase-document>
-
-    <app-indexeddb-mirror
-      session="{$ firebase.indexedDbSession $}"
-      key="venueRatings"
-      data="{{persistedData}}"
-      persisted-data="{{app.user.venueRatings}}">
-    </app-indexeddb-mirror>
-
-    <firebase-document
-      id="comments"
-      app-name="{$ firebase.name $}"
-      path="{$ firebase.commentsPath $}/[[app.user.uid]]"
-      data="{{persistedData}}">
-    </firebase-document>
-
-    <app-indexeddb-mirror
-      session="{$ firebase.indexedDbSession $}"
-      key="commentsPath"
-      data="{{persistedData}}"
-      persisted-data="{{app.user.comments}}">
+      persisted-data="{{app.user.ratings}}">
     </app-indexeddb-mirror>
 
     <paper-scroll-header-panel id="scrollHeaderPanel" no-reveal>
@@ -355,41 +313,30 @@
 
         _sessionChanged: function () {
           if (this.app.user) {
-            if (!this.app.user.speakerRatings) {
-              this.app.user.speakerRatings = {
+            if (!this.app.user.ratings) {
+              this.app.user.ratings = {
                 sessions: {}
               };
-            } else if (!this.app.user.speakerRatings.sessions) {
-              this.app.user.speakerRatings.sessions = {};
+            } else if (!this.app.user.ratings.sessions) {
+              this.app.user.ratings.sessions = {};
             }
-            this.set('speakerRate', this.app.user.speakerRatings.sessions[this.session.id] || 0);
-
-            if (!this.app.user.contentRatings) {
-              this.app.user.contentRatings = {
-                sessions: {}
+            if (this.app.user.ratings.sessions[this.session.id]) {
+              this.set('speakerRate', this.app.user.ratings.sessions[this.session.id].speaker);
+              this.set('contentRate', this.app.user.ratings.sessions[this.session.id].content);
+              this.set('venueRate', this.app.user.ratings.sessions[this.session.id].venue);
+              this.set('comment', this.app.user.ratings.sessions[this.session.id].comment);
+            } else {
+              this.app.user.ratings.sessions[this.session.id] = {
+                'speaker': 0,
+                'content': 0,
+                'venue': 0,
+                'comment': ''
               };
-            } else if (!this.app.user.contentRatings.sessions) {
-              this.app.user.contentRatings.sessions = {};
+              this.set('speakerRate', 0);
+              this.set('contentRate', 0);
+              this.set('venueRate', 0);
+              this.set('comment', '');
             }
-            this.set('contentRate', this.app.user.contentRatings.sessions[this.session.id] || 0);
-
-            if (!this.app.user.venueRatings) {
-              this.app.user.venueRatings = {
-                sessions: {}
-              };
-            } else if (!this.app.user.venueRatings.sessions) {
-              this.app.user.venueRatings.sessions = {};
-            }
-            this.set('venueRate', this.app.user.venueRatings.sessions[this.session.id] || 0);
-
-            if (!this.app.user.comments) {
-              this.app.user.comments = {
-                sessions: {}
-              };
-            } else if (!this.app.user.comments.sessions) {
-              this.app.user.comments.sessions = {};
-            }
-            this.set('comment', this.app.user.comments.sessions[this.session.id] || null);
           }
           var generatedClass = this._generateClass(this.session.mainTag);
           this.customStyle['--paper-scroll-header-panel-color'] = 'var(--' + generatedClass + ')';
@@ -428,17 +375,17 @@
 
         rateSessionSpeaker: function () {
           if (!this.speakerRate) return;
-          this.set('app.user.speakerRatings.sessions.' + this.session.id, this.speakerRate);
+          this.set('app.user.ratings.sessions.' + this.session.id + '.speaker', this.speakerRate);
         },
 
         rateSessionContent: function () {
           if (!this.contentRate) return;
-          this.set('app.user.contentRatings.sessions.' + this.session.id, this.contentRate);
+          this.set('app.user.ratings.sessions.' + this.session.id + '.content', this.contentRate);
         },
 
         rateSessionVenue: function () {
           if (!this.venueRate) return;
-          this.set('app.user.venueRatings.sessions.' + this.session.id, this.venueRate);
+          this.set('app.user.ratings.sessions.' + this.session.id + '.venue', this.venueRate);
         },
 
         _rate: function () {
@@ -464,7 +411,7 @@
             HOVERBOARD.Elements.Template.$.toast.showMessage(
               '{$ youShouldSignInRating $}', signIn, '{$ signIn $}');
           } else {
-            this.set('app.user.comments.sessions.' + this.session.id, this.comment);
+            this.set('app.user.ratings.sessions.' + this.session.id + '.comment', this.comment);
           }
         },
 
