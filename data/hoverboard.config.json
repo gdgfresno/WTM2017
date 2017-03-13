@@ -22,6 +22,10 @@
     "api": "AIzaSyD1d4u68Xt3akar6KsHHEBSU6mthVMkIPs",
     "userSessionsPath": "/userSessions",
     "ratingsPath": "/ratings",
+    "speakerRatingsPath": "/speakerRatings",
+    "contentRatingsPath": "/contentRatings",
+    "venueRatingsPath": "/venueRatings",
+    "commentsPath": "/comments",
     "indexedDbSession": "hoverboard"
   },
   "mailchimp": {

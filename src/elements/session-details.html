@@ -3,6 +3,7 @@
 <link rel="import" href="../../bower_components/app-storage/app-network-status-behavior.html">
 <link rel="import" href="../../bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
 
+<link rel="import" href="../../bower_components/iron-autogrow-textarea/iron-autogrow-textarea.html">
 <link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
 <link rel="import" href="../../bower_components/iron-dropdown/iron-dropdown-scroll-manager.html">
 
@@ -74,25 +75,72 @@
         margin-top: 8px;
         font-size: 12px;
         color: var(--secondary-text-color);
+        display: inline-block;
       }
 
       .calendar-plus {
         color: var(--primary-text-color);
       }
+
+      iron-autogrow-textarea {
+        width: 100%;
+      }
     </style>
 
     <firebase-document
-      id="ratings"
+      id="speakerRatings"
       app-name="{$ firebase.name $}"
-      path="{$ firebase.ratingsPath $}/[[app.user.uid]]"
+      path="{$ firebase.speakerRatingsPath $}/[[app.user.uid]]"
       data="{{persistedData}}">
     </firebase-document>
 
     <app-indexeddb-mirror
       session="{$ firebase.indexedDbSession $}"
-      key="ratings"
+      key="speakerRatings"
       data="{{persistedData}}"
-      persisted-data="{{app.user.ratings}}">
+      persisted-data="{{app.user.speakerRatings}}">
+    </app-indexeddb-mirror>
+
+    <firebase-document
+      id="contentRatings"
+      app-name="{$ firebase.name $}"
+      path="{$ firebase.contentRatingsPath $}/[[app.user.uid]]"
+      data="{{persistedData}}">
+    </firebase-document>
+
+    <app-indexeddb-mirror
+      session="{$ firebase.indexedDbSession $}"
+      key="contentRatings"
+      data="{{persistedData}}"
+      persisted-data="{{app.user.contentRatings}}">
+    </app-indexeddb-mirror>
+
+    <firebase-document
+      id="venueRatings"
+      app-name="{$ firebase.name $}"
+      path="{$ firebase.venueRatingsPath $}/[[app.user.uid]]"
+      data="{{persistedData}}">
+    </firebase-document>
+
+    <app-indexeddb-mirror
+      session="{$ firebase.indexedDbSession $}"
+      key="venueRatings"
+      data="{{persistedData}}"
+      persisted-data="{{app.user.venueRatings}}">
+    </app-indexeddb-mirror>
+
+    <firebase-document
+      id="comments"
+      app-name="{$ firebase.name $}"
+      path="{$ firebase.commentsPath $}/[[app.user.uid]]"
+      data="{{persistedData}}">
+    </firebase-document>
+
+    <app-indexeddb-mirror
+      session="{$ firebase.indexedDbSession $}"
+      key="commentsPath"
+      data="{{persistedData}}"
+      persisted-data="{{app.user.comments}}">
     </app-indexeddb-mirror>
 
     <paper-scroll-header-panel id="scrollHeaderPanel" no-reveal>
@@ -179,10 +227,31 @@
         </div>
 
         {% if enableSessionsRating %}
-        <div class="label">{$ rateSession $}</div>
-        <rating-element rate={{rate}}
+        <hr>
+        <div class="main-label">{$ rateSession $}:</div>
+        <div class="label">{$ rateSpeaker $}</div>
+        <rating-element rate={{speakerRate}}
                         disabled$="[[_isRatingDisabled(online, app.user)]]"
                         on-tap="_rate"></rating-element>
+        <br>
+        <div class="label">{$ rateContent $}</div>
+        <rating-element rate={{contentRate}}
+                        disabled$="[[_isRatingDisabled(online, app.user)]]"
+                        on-tap="_rate"></rating-element>
+        <br>
+        <div class="label">{$ rateVenue $}</div>
+        <rating-element rate={{venueRate}}
+                        disabled$="[[_isRatingDisabled(online, app.user)]]"
+                        on-tap="_rate"></rating-element>
+
+        <iron-autogrow-textarea bind-value="{{comment}}"
+                        rows="3" maxRows="40"
+                        disabled$="[[_isRatingDisabled(online, app.user)]]"
+                        placeholder="{$ enterComment $}"></iron-autogrow-textarea>
+        <paper-button class="session-comment"
+                        on-tap="_commentSession"
+                        disabled$="[[_isRatingDisabled(online, app.user)]]"
+                        raised>{$ submitComment $}</paper-button>
         {% endif %}
       </div>
 
@@ -247,9 +316,24 @@
             value: 'calendar-plus'
           },
 
-          rate: {
+          speakerRate: {
             type: Number,
-            observer: 'rateSession'
+            observer: 'rateSessionSpeaker'
+          },
+
+          contentRate: {
+            type: Number,
+            observer: 'rateSessionContent'
+          },
+
+          venueRate: {
+            type: Number,
+            observer: 'rateSessionVenue'
+          },
+
+          comment: {
+            type: String,
+            value: ""
           }
         },
 
@@ -271,14 +355,41 @@
 
         _sessionChanged: function () {
           if (this.app.user) {
-            if (!this.app.user.ratings) {
-              this.app.user.ratings = {
+            if (!this.app.user.speakerRatings) {
+              this.app.user.speakerRatings = {
                 sessions: {}
               };
-            } else if (!this.app.user.ratings.sessions) {
-              this.app.user.ratings.sessions = {};
+            } else if (!this.app.user.speakerRatings.sessions) {
+              this.app.user.speakerRatings.sessions = {};
             }
-            this.set('rate', this.app.user.ratings.sessions[this.session.id] || 0);
+            this.set('speakerRate', this.app.user.speakerRatings.sessions[this.session.id] || 0);
+
+            if (!this.app.user.contentRatings) {
+              this.app.user.contentRatings = {
+                sessions: {}
+              };
+            } else if (!this.app.user.contentRatings.sessions) {
+              this.app.user.contentRatings.sessions = {};
+            }
+            this.set('contentRate', this.app.user.contentRatings.sessions[this.session.id] || 0);
+
+            if (!this.app.user.venueRatings) {
+              this.app.user.venueRatings = {
+                sessions: {}
+              };
+            } else if (!this.app.user.venueRatings.sessions) {
+              this.app.user.venueRatings.sessions = {};
+            }
+            this.set('venueRate', this.app.user.venueRatings.sessions[this.session.id] || 0);
+
+            if (!this.app.user.comments) {
+              this.app.user.comments = {
+                sessions: {}
+              };
+            } else if (!this.app.user.comments.sessions) {
+              this.app.user.comments.sessions = {};
+            }
+            this.set('comment', this.app.user.comments.sessions[this.session.id] || null);
           }
           var generatedClass = this._generateClass(this.session.mainTag);
           this.customStyle['--paper-scroll-header-panel-color'] = 'var(--' + generatedClass + ')';
@@ -315,9 +426,19 @@
           }
         },
 
-        rateSession: function () {
-          if (!this.rate) return;
-          this.set('app.user.ratings.sessions.' + this.session.id, this.rate);
+        rateSessionSpeaker: function () {
+          if (!this.speakerRate) return;
+          this.set('app.user.speakerRatings.sessions.' + this.session.id, this.speakerRate);
+        },
+
+        rateSessionContent: function () {
+          if (!this.contentRate) return;
+          this.set('app.user.contentRatings.sessions.' + this.session.id, this.contentRate);
+        },
+
+        rateSessionVenue: function () {
+          if (!this.venueRate) return;
+          this.set('app.user.venueRatings.sessions.' + this.session.id, this.venueRate);
         },
 
         _rate: function () {
@@ -329,6 +450,21 @@
             };
             HOVERBOARD.Elements.Template.$.toast.showMessage(
               '{$ youShouldSignInRating $}', signIn, '{$ signIn $}');
+          }
+        },
+
+        _commentSession: function () {
+          if (!this.comment) return;
+          if (!this.online) {
+            HOVERBOARD.Elements.Template.$.toast.showMessage('{$ offlineMessage $}');
+          } else if (!this.app.user) {
+            var signIn = function () {
+              HOVERBOARD.Elements.Template.signIn();
+            };
+            HOVERBOARD.Elements.Template.$.toast.showMessage(
+              '{$ youShouldSignInRating $}', signIn, '{$ signIn $}');
+          } else {
+            this.set('app.user.comments.sessions.' + this.session.id, this.comment);
           }
         },
 

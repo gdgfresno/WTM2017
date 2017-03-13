@@ -10,6 +10,38 @@
         ".write": "auth.uid === $uid"
       }
     },
+    "speakerRatings": {
+      ".read": false,
+      ".write": false,
+      "$uid": {
+        ".read": "auth.uid === $uid",
+        ".write": "auth.uid === $uid"
+      }
+    },
+    "contentRatings": {
+      ".read": false,
+      ".write": false,
+      "$uid": {
+        ".read": "auth.uid === $uid",
+        ".write": "auth.uid === $uid"
+      }
+    },
+    "venueRatings": {
+      ".read": false,
+      ".write": false,
+      "$uid": {
+        ".read": "auth.uid === $uid",
+        ".write": "auth.uid === $uid"
+      }
+    },
+    "comments": {
+      ".read": false,
+      ".write": false,
+      "$uid": {
+        ".read": "auth.uid === $uid",
+        ".write": "auth.uid === $uid"
+      }
+    },
     "userSessions": {
       ".read": false,
       ".write": false,

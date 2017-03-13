@@ -56,6 +56,12 @@
   "youShouldSignIn": "Sign in to save sessions",
   "removedFromSchedule": "Removed from My Schedule",
   "addedToSchedule": "Added to My Schedule",
+  "rateSession": "Ratings",
+  "rateSpeaker": "Speaker",
+  "rateContent": "Content",
+  "rateVenue": "Venue",
+  "enterComment": "Hit Submit after you entered your comment here",
+  "submitComment": "Submit",
 
   "pages": {
     "home": {
