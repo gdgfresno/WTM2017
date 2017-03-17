@@ -9,8 +9,8 @@
   },
   "137": {
     "id": 137,
-    "title": "Closing",
-    "description": "Afterparty is a great time to have some fun and meet new people",
+    "title": "Closing/Give-aways",
+    "description": "Let's Celebrate and Give Some Goodies AWAY",
     "image": "/images/backgrounds/party.jpg",
     "location": "Auditorium",
     "colspan": true
@@ -195,7 +195,7 @@
     "title": "Cloud Next",
     "description": "We'll watch and discuss interesting sessions of the recent Google Cloud Next Conference. Everyone wth a laptop (BYOD) can participate in code labs (see resource links below). Participants of codelab who excel will receive various prizes.",
     "speakers": [
-      9
+      9, 12
     ],
     "complexity": "Intermediate",
     "tags": [

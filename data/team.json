@@ -7,9 +7,9 @@
         "photoUrl": "/images/people/nancy.jpg",
         "socials": [
           {
-            "icon": "gplus",
-            "link": "https://plus.google.com/106036726594291409241",
-            "name": "Google+"
+            "icon": "linkedin",
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/designerwiththeheadscarf"
           },
           {
             "icon": "facebook",
@@ -32,9 +32,14 @@
             "icon": "facebook",
             "link": "https://www.facebook.com/riowaller",
             "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/RioWaller",
+            "name": "Twitter"
           }
         ],
-        "title": "Wise Owl"
+        "title": "Wise Owl/WebSite/MakerSpace"
       }
     ]
   },
@@ -52,9 +57,20 @@
           },
           {
             "icon": "twitter",
-            "link": "https://twitter.com",
+            "link": "https://twitter.com/Josh_w_G",
             "name": "Twitter"
+          },
+          {
+            "icon": "linkedin",
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/joshwingreene/"
+          },
+          {
+            "icon": "gplus",
+            "link": "https://plus.google.com/u/0/+JoshwinGreene",
+            "name": "Google+"
           }
+
         ],
         "title": "Logistics"
       },
@@ -64,13 +80,18 @@
         "socials": [
           {
             "icon": "facebook",
-            "link": "https://www.facebook.com/idvoretskyi",
+            "link": "https://www.facebook.com/popescupatricia",
             "name": "Facebook"
           },
           {
             "icon": "twitter",
             "link": "https://twitter.com/idvoretskyi",
             "name": "Twitter"
+          },
+          {
+            "icon": "linkedin",
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/patriciaspopescu/"
           }
         ],
         "title": "Communications + Design"
@@ -188,13 +209,23 @@
         "socials": [
           {
             "icon": "facebook",
-            "link": "https://www.facebook.com/",
+            "link": "https://www.facebook.com/shelabella",
             "name": "Facebook"
           },
           {
             "icon": "twitter",
-            "link": "https://twitter.com/",
+            "link": "https://twitter.com/moorethanseo",
             "name": "Twitter"
+          },
+          {
+            "icon": "linkedin",
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/shelmoore/"
+          },
+          {
+            "icon": "gplus",
+            "link": "https://plus.google.com/u/0/+MichelleMoore711",
+            "name": "Google+"
           }
         ],
         "title": "Comm + Design"
@@ -221,13 +252,13 @@
         "photoUrl": "/images/people/lauren.jpg",
         "socials": [
           {
-            "icon": "facebook",
-            "link": "https://www.facebook.com",
-            "name": "Facebook"
+            "icon": "linkedin",
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/laurenstanger/"
           },
           {
             "icon": "twitter",
-            "link": "https://twitter.com/",
+            "link": "https://twitter.com/Laradenisepls",
             "name": "Twitter"
           }
         ],
@@ -244,13 +275,18 @@
         "socials": [
           {
             "icon": "facebook",
-            "link": "https://www.facebook.com/",
+            "link": "https://www.facebook.com/supergabby",
             "name": "Facebook"
           },
           {
             "icon": "twitter",
-            "link": "https://twitter.com/",
+            "link": "https://twitter.com/graphicsbygabe",
             "name": "Twitter"
+          },
+          {
+            "icon": "linkedin",
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/ingabrielgatchalian"
           }
         ],
         "title": "Graphic Designer"

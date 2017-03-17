@@ -197,7 +197,7 @@
         "featured": true,
         "name": "Shel Moore",
         "title": "Digital Marketer & Entrepreneur",
-        "company": "Moore SEO",
+        "company": "Moore Than SEO",
         "companyLogo": "/images/logos/moore.png",
         "country": "",
         "photoUrl": "/images/people/shel.jpg",
@@ -224,7 +224,7 @@
             {
                 "icon": "facebook",
                 "name": "Facebook",
-                "link": "https://www.facebook.com/jozef.vodicka"
+                "link": "https://www.facebook.com/shelabella"
             },
             {
                 "icon": "website",
@@ -370,6 +370,35 @@
         "icon": "linkedin",
         "name": "LinkedIn",
         "link": "https://www.linkedin.com/in/alisonhaugan"
+      }
+    ]
+   },
+  "12": {
+    "id": 12,
+    "featured": true,
+    "name": "Jesus Vega",
+    "title": "Front End Developer",
+    "company": "Self",
+    "companyLogo": "",
+    "country": "",
+    "photoUrl": "/images/people/jes.jpg",
+    "shortBio": "I am a self taught front end developer. I help build beautiful interfaces.",
+    "bio": "I am a self taught front end developer. I help build beautiful interfaces.",
+    "tags": [
+      "Front End"
+    ],
+    "badges": [
+    ],
+    "socials": [
+      {
+        "icon": "github",
+        "name": "Github",
+        "link": "https://github.com/paragonchuy"
+      },
+      {
+        "icon": "website",
+        "name": "Website",
+        "link": "http://jesusvega.xyz"
       }
     ]
    }
