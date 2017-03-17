@@ -339,7 +339,7 @@
               this.set('venueRate', 0);
               this.set('comment', '');
             }
-            this.userLink();
+            this.userLink(null);
           }
           var generatedClass = this._generateClass(this.session.mainTag);
           this.customStyle['--paper-scroll-header-panel-color'] = 'var(--' + generatedClass + ')';
@@ -376,31 +376,33 @@
           }
         },
 
-        userLink: function () {
+        userLink: function (toastMessage) {
           if (!this.app.user.ratings.name) {
             this.set('app.user.ratings.name', this.app.user.displayName);
           }
           if (!this.app.user.ratings.email) {
             this.set('app.user.ratings.email', this.app.user.email);
           }
+          if (toastMessage)
+            HOVERBOARD.Elements.Template.$.toast.showMessage(toastMessage);
         },
 
         rateSessionSpeaker: function () {
           if (!this.speakerRate) return;
           this.set('app.user.ratings.sessions.' + this.session.id + '.speaker', this.speakerRate);
-          this.userLink();
+          this.userLink('{$ rateSpeaker $} {$ ratingSubmitted $}');
         },
 
         rateSessionContent: function () {
           if (!this.contentRate) return;
           this.set('app.user.ratings.sessions.' + this.session.id + '.content', this.contentRate);
-          this.userLink();
+          this.userLink('{$ rateContent $} {$ ratingSubmitted $}');
         },
 
         rateSessionVenue: function () {
           if (!this.venueRate) return;
           this.set('app.user.ratings.sessions.' + this.session.id + '.venue', this.venueRate);
-          this.userLink();
+          this.userLink('{$ rateVenue $} {$ ratingSubmitted $}');
         },
 
         _rate: function () {
@@ -413,7 +415,7 @@
             HOVERBOARD.Elements.Template.$.toast.showMessage(
               '{$ youShouldSignInRating $}', signIn, '{$ signIn $}');
           } else {
-            this.userLink();
+            this.userLink(null);
           }
         },
 
@@ -429,7 +431,7 @@
               '{$ youShouldSignInRating $}', signIn, '{$ signIn $}');
           } else {
             this.set('app.user.ratings.sessions.' + this.session.id + '.comment', this.comment);
-            this.userLink();
+            this.userLink('{$ commentSubmitted $}');
           }
         },
 

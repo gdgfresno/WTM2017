@@ -62,6 +62,8 @@
   "rateVenue": "Venue",
   "enterComment": "Hit Submit after you entered your comment here",
   "submitComment": "Submit",
+  "ratingSubmitted": "Rating submitted",
+  "commentSubmitted": "Comment submitted",
 
   "pages": {
     "home": {
