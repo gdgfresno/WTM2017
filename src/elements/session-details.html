@@ -292,6 +292,11 @@
           comment: {
             type: String,
             value: ""
+          },
+
+          suppressToast: {
+            type: Boolean,
+            value: false
           }
         },
 
@@ -319,27 +324,25 @@
                 email: '',
                 sessions: {}
               };
-            } else if (!this.app.user.ratings.sessions) {
+            }
+            if (!this.app.user.ratings.sessions) {
               this.app.user.ratings.sessions = {};
             }
+            this.suppressToast = true;
             if (this.app.user.ratings.sessions[this.session.id]) {
-              this.set('speakerRate', this.app.user.ratings.sessions[this.session.id].speaker);
-              this.set('contentRate', this.app.user.ratings.sessions[this.session.id].content);
-              this.set('venueRate', this.app.user.ratings.sessions[this.session.id].venue);
-              this.set('comment', this.app.user.ratings.sessions[this.session.id].comment);
+              this.set('speakerRate', this.app.user.ratings.sessions[this.session.id].speaker || 0);
+              this.set('contentRate', this.app.user.ratings.sessions[this.session.id].content || 0);
+              this.set('venueRate', this.app.user.ratings.sessions[this.session.id].venue || 0);
+              this.set('comment', this.app.user.ratings.sessions[this.session.id].comment || '');
             } else {
-              this.app.user.ratings.sessions[this.session.id] = {
-                'speaker': 0,
-                'content': 0,
-                'venue': 0,
-                'comment': ''
-              };
+              // If not cleared then non rated session may show previously rated session's ratings after switch
               this.set('speakerRate', 0);
               this.set('contentRate', 0);
               this.set('venueRate', 0);
               this.set('comment', '');
             }
             this.userLink(null);
+            this.suppressToast = false;
           }
           var generatedClass = this._generateClass(this.session.mainTag);
           this.customStyle['--paper-scroll-header-panel-color'] = 'var(--' + generatedClass + ')';
@@ -383,24 +386,37 @@
           if (!this.app.user.ratings.email) {
             this.set('app.user.ratings.email', this.app.user.email);
           }
-          if (toastMessage)
+          if (toastMessage && !this.suppressToast) {
             HOVERBOARD.Elements.Template.$.toast.showMessage(toastMessage);
+          }
+        },
+
+        sessionRatingInit: function() {
+          if (!this.app.user.ratings.sessions) {
+            this.app.user.ratings.sessions = {};
+          }
+          if (!this.app.user.ratings.sessions[this.session.id]) {
+            this.app.user.ratings.sessions[this.session.id] = {};
+          }
         },
 
         rateSessionSpeaker: function () {
           if (!this.speakerRate) return;
+          this.sessionRatingInit();
           this.set('app.user.ratings.sessions.' + this.session.id + '.speaker', this.speakerRate);
           this.userLink('{$ rateSpeaker $} {$ ratingSubmitted $}');
         },
 
         rateSessionContent: function () {
           if (!this.contentRate) return;
+          this.sessionRatingInit();
           this.set('app.user.ratings.sessions.' + this.session.id + '.content', this.contentRate);
           this.userLink('{$ rateContent $} {$ ratingSubmitted $}');
         },
 
         rateSessionVenue: function () {
           if (!this.venueRate) return;
+          this.sessionRatingInit();
           this.set('app.user.ratings.sessions.' + this.session.id + '.venue', this.venueRate);
           this.userLink('{$ rateVenue $} {$ ratingSubmitted $}');
         },
@@ -430,6 +446,7 @@
             HOVERBOARD.Elements.Template.$.toast.showMessage(
               '{$ youShouldSignInRating $}', signIn, '{$ signIn $}');
           } else {
+            this.sessionRatingInit();
             this.set('app.user.ratings.sessions.' + this.session.id + '.comment', this.comment);
             this.userLink('{$ commentSubmitted $}');
           }
