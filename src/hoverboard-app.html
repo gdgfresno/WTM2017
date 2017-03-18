@@ -362,6 +362,8 @@
 
                 navigator.credentials.store(cred);
               }
+            }).then(function () {
+              window.location.reload();
             });
         },
 
@@ -371,6 +373,8 @@
               if (navigator.credentials) {
                 navigator.credentials.requireUserMediation();
               }
+            }).then(function () {
+              window.location.reload();
             });
         },
 
