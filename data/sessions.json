@@ -9,8 +9,8 @@
   },
   "137": {
     "id": 137,
-    "title": "Closing/Give-aways",
-    "description": "Let's Celebrate and Give Some Goodies AWAY",
+    "title": "Closing / General Survey / Give-aways",
+    "description": "Let's Celebrate and Give Some Goodies AWAY. This session's rating is the general survey of the event. You must complete it (and at least another session's rating) to be entered into the raffle.",
     "image": "/images/backgrounds/party.jpg",
     "location": "Auditorium",
     "colspan": true
@@ -54,18 +54,33 @@
   "114": {
     "id": 114,
     "title": "Cloud Next",
-    "description": "First we take a look at what Google Cloud has to offer and relate its services to other major cloud providers' features. We'll watch and discuss interesting sessions of the recent Google Cloud Next Conference. Everyone wth a laptop (BYOD) can participate in code labs (see resource links below). Participants of codelab who excel will receive various prizes.",
+    "description": "First we take a look at what Google Cloud has to offer and relate its services to other major cloud providers' features. We'll watch and discuss interesting sessions of the recent Google Cloud Next Conference. Everyone wth a laptop (BYOD) can participate in code labs (see resource links below). Participants of codelab who excel will receive various prizes. Please don't forget to fill out the separate attendee survey (see first resource link below) for this Cloud Next part of the event.",
     "speakers": [
       9
     ],
-    "complexity": "Beginner",
+    "complexity": "Intermediate",
     "tags": [
       "Cloud Next"
     ],
     "resources": [
         {
             "type": "link",
+            "title": "Attendee Survey",
+            "href": "https://docs.google.com/a/google.com/forms/d/e/1FAIpQLSfA95161xkfywPrAnEcTodsv993qHzo7BlIojexB0P3rvSBrg/viewform"
+        },
+        {
+            "type": "link",
             "title": "Cloud Next Code Labs",
+            "href": "https://codelabs.developers.google.com/next17"
+        },
+        {
+            "type": "link",
+            "title": "Free Coursera Code Labs",
+            "href": "http://www.coursera.org/voucher/googlenext"
+        },
+        {
+            "type": "link",
+            "title": "GCP Next Code Labs",
             "href": "https://codelabs.developers.google.com/gcp-next"
         },
         {
@@ -193,7 +208,7 @@
   "104": {
     "id": 104,
     "title": "Cloud Next",
-    "description": "We'll watch and discuss interesting sessions of the recent Google Cloud Next Conference. Everyone wth a laptop (BYOD) can participate in code labs (see resource links below). Participants of codelab who excel will receive various prizes.",
+    "description": "We'll watch and discuss interesting sessions of the recent Google Cloud Next Conference. Everyone wth a laptop (BYOD) can participate in code labs (see resource links below). Participants of codelab who excel will receive various prizes. Please don't forget to fill out the separate attendee survey (see first resource link below) for this Cloud Next part of the event.",
     "speakers": [
       9, 12
     ],
@@ -202,6 +217,21 @@
       "Cloud Next"
     ],
     "resources": [
+        {
+            "type": "link",
+            "title": "Attendee Survey",
+            "href": "https://docs.google.com/a/google.com/forms/d/e/1FAIpQLSfA95161xkfywPrAnEcTodsv993qHzo7BlIojexB0P3rvSBrg/viewform"
+        },
+        {
+            "type": "link",
+            "title": "Cloud Next Code Labs",
+            "href": "https://codelabs.developers.google.com/next17"
+        },
+        {
+            "type": "link",
+            "title": "Free Coursera Code Labs",
+            "href": "http://www.coursera.org/voucher/googlenext"
+        },
         {
             "type": "link",
             "title": "Cloud Next Code Labs",
