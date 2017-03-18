@@ -187,8 +187,8 @@
         {% if enableSessionsRating %}
         <hr>
         <div class="main-label">{$ rateSession $}:</div>
-        <div class="label">{$ rateSpeaker $}</div>
-        <rating-element rate={{speakerRate}}
+        <div class="label">{$ ratePresentation $}</div>
+        <rating-element rate={{presentationRate}}
                         disabled$="[[_isRatingDisabled(online, app.user)]]"
                         on-tap="_rate"></rating-element>
         <br>
@@ -274,9 +274,9 @@
             value: 'calendar-plus'
           },
 
-          speakerRate: {
+          presentationRate: {
             type: Number,
-            observer: 'rateSessionSpeaker'
+            observer: 'rateSessionPresentation'
           },
 
           contentRate: {
@@ -330,13 +330,13 @@
             }
             this.suppressToast = true;
             if (this.app.user.ratings.sessions[this.session.id]) {
-              this.set('speakerRate', this.app.user.ratings.sessions[this.session.id].speaker || 0);
+              this.set('presentationRate', this.app.user.ratings.sessions[this.session.id].presentation || 0);
               this.set('contentRate', this.app.user.ratings.sessions[this.session.id].content || 0);
               this.set('venueRate', this.app.user.ratings.sessions[this.session.id].venue || 0);
               this.set('comment', this.app.user.ratings.sessions[this.session.id].comment || '');
             } else {
               // If not cleared then non rated session may show previously rated session's ratings after switch
-              this.set('speakerRate', 0);
+              this.set('presentationRate', 0);
               this.set('contentRate', 0);
               this.set('venueRate', 0);
               this.set('comment', '');
@@ -400,11 +400,11 @@
           }
         },
 
-        rateSessionSpeaker: function () {
-          if (!this.speakerRate) return;
+        rateSessionPresentation: function () {
+          if (!this.presentationRate) return;
           this.sessionRatingInit();
-          this.set('app.user.ratings.sessions.' + this.session.id + '.speaker', this.speakerRate);
-          this.userLink('{$ rateSpeaker $} {$ ratingSubmitted $}');
+          this.set('app.user.ratings.sessions.' + this.session.id + '.presentation', this.presentationRate);
+          this.userLink('{$ ratePresentation $} {$ ratingSubmitted $}');
         },
 
         rateSessionContent: function () {
