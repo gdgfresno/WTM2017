@@ -79,6 +79,11 @@
             "href": "https://codelabs.developers.google.com/next17"
         },
         {
+            "type": "video",
+            "title": "Cloud Next Sessions",
+            "href": "https://www.youtube.com/playlist?list=PLIivdWyY5sqI8RuUibiH8sMb1ExIw0lAR"
+        },
+        {
             "type": "link",
             "title": "Free Coursera Code Labs",
             "href": "http://www.coursera.org/voucher/googlenext"
@@ -236,6 +241,11 @@
             "type": "link",
             "title": "Cloud Next Code Labs",
             "href": "https://codelabs.developers.google.com/next17"
+        },
+        {
+            "type": "video",
+            "title": "Cloud Next Sessions",
+            "href": "https://www.youtube.com/playlist?list=PLIivdWyY5sqI8RuUibiH8sMb1ExIw0lAR"
         },
         {
             "type": "link",
