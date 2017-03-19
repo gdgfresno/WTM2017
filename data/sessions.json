@@ -56,7 +56,7 @@
     "title": "Cloud Next",
     "description": "First we take a look at what Google Cloud has to offer and relate its services to other major cloud providers' features. We'll watch and discuss interesting sessions of the recent Google Cloud Next Conference. Everyone wth a laptop (BYOD) can participate in code labs (see resource links below). Participants of codelab who excel will receive various prizes. Please don't forget to fill out the separate attendee survey (see first resource link below) for this Cloud Next part of the event.",
     "speakers": [
-      9
+      9, 13, 12
     ],
     "complexity": "Intermediate",
     "tags": [
@@ -210,7 +210,7 @@
     "title": "Cloud Next",
     "description": "We'll watch and discuss interesting sessions of the recent Google Cloud Next Conference. Everyone wth a laptop (BYOD) can participate in code labs (see resource links below). Participants of codelab who excel will receive various prizes. Please don't forget to fill out the separate attendee survey (see first resource link below) for this Cloud Next part of the event.",
     "speakers": [
-      9, 12
+      9, 13, 12
     ],
     "complexity": "Intermediate",
     "tags": [

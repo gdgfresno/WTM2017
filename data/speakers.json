@@ -401,5 +401,28 @@
         "link": "http://jesusvega.xyz"
       }
     ]
+   },
+  "13": {
+    "id": 13,
+    "featured": true,
+    "name": "Ahsen Baig",
+    "title": "Senior Programmer Analyst",
+    "company": "College of the Sequoias, GDG Visalia",
+    "companyLogo": "",
+    "country": "",
+    "photoUrl": "/images/people/ahsen.jpg",
+    "shortBio": "Ahsen is leader of GDG Visalia and a highly skilled programmer.",
+    "bio": "Ahsen has experience with multiple eco-systems (Google, Microsoft, ...) and their technology stacks. Once worked as a software engineer at NASA, today College of the Sequoias can be lucky enough to emply him.",
+    "tags": [
+    ],
+    "badges": [
+    ],
+    "socials": [
+      {
+        "icon": "gplus",
+        "link": "//google.com/+AhsenBaig",
+        "name": "Google+"
+      }
+    ]
    }
   }
