@@ -201,6 +201,18 @@
     "complexity": "beginner",
     "tags": [
       "UI/UX Design"
+    ],
+    "resources": [
+        {
+            "type": "presentation",
+            "title": "Slide Deck (keynote)",
+            "href": "https://drive.google.com/file/d/0B1ehBSP0_ewmcDFtOUNRWWl0MDQ/view"
+        },
+        {
+            "type": "presentation",
+            "title": "Slide Deck (pptx)",
+            "href": "https://drive.google.com/file/d/0B1ehBSP0_ewmR3lxdlhlUlhacGM/view"
+        }
     ]
   },
   "105": {
