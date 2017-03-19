@@ -69,6 +69,11 @@
             "href": "https://docs.google.com/a/google.com/forms/d/e/1FAIpQLSfA95161xkfywPrAnEcTodsv993qHzo7BlIojexB0P3rvSBrg/viewform"
         },
         {
+            "type": "presentation",
+            "title": "Slide Deck",
+            "href": "https://docs.google.com/presentation/d/194CM8Lf675ff95inQwfxq1IOC5ATxH_nctRe0ki0fVQ/edit?usp=sharing"
+        },
+        {
             "type": "link",
             "title": "Cloud Next Code Labs",
             "href": "https://codelabs.developers.google.com/next17"
@@ -152,7 +157,7 @@
     "resources": [
         {
             "type": "presentation",
-            "title": "slide deck linked",
+            "title": "Slide deck",
             "href": "https://goo.gl/4UHlNY"
         }
     ]
@@ -221,6 +226,11 @@
             "type": "link",
             "title": "Attendee Survey",
             "href": "https://docs.google.com/a/google.com/forms/d/e/1FAIpQLSfA95161xkfywPrAnEcTodsv993qHzo7BlIojexB0P3rvSBrg/viewform"
+        },
+        {
+            "type": "presentation",
+            "title": "Slide Deck",
+            "href": "https://docs.google.com/presentation/d/194CM8Lf675ff95inQwfxq1IOC5ATxH_nctRe0ki0fVQ/edit?usp=sharing"
         },
         {
             "type": "link",
